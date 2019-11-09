@@ -12,7 +12,9 @@ namespace CSharpExamplesForMathematicalOperations
     {
         static void Main(string[] args)
         {
-
+            int i;
+            Console.Write("Enter a Number: ");
+            i = int.Parse(Console.ReadLine());
         }
     }
 }
