@@ -32,6 +32,14 @@ namespace CSharpExamplesForMathematicalOperations
     // Program to Swap 2 numbers 
     class Program
     {
+        static void Main(string[] args)
+        {
+            int num1, num2, temp;
+            Console.Write("Enter the First Number: ");
+            num1 = int.Parse(Console.ReadLine());
+            Console.Write("Enter the Second Number: ");
+            num2 = int.Parse(Console.ReadLine());
 
+        }
     }
 }
