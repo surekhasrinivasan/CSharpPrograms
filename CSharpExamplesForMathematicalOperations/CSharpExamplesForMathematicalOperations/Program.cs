@@ -52,6 +52,11 @@ namespace CSharpExamplesForMathematicalOperations
     // Program to Get a number and display the sum of the digits 
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            int sum = 0, num, remainder;
+            Console.Write("Enter a Number : ");
+            num = int.Parse(Console.ReadLine());
+        }
     }
 }
