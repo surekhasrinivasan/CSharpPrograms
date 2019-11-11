@@ -57,6 +57,12 @@ namespace CSharpExamplesForMathematicalOperations
             int sum = 0, num, remainder;
             Console.Write("Enter a Number : ");
             num = int.Parse(Console.ReadLine());
+            while(num != 0)
+            {
+                remainder = num % 10;
+                num = num / 10;
+                sum = sum + remainder;
+            }
         }
     }
 }
