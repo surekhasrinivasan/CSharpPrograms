@@ -63,6 +63,8 @@ namespace CSharpExamplesForMathematicalOperations
                 num = num / 10;
                 sum = sum + remainder;
             }
+            Console.WriteLine("The sum of the digits of the Number is : " + sum);
+            Console.ReadLine();
         }
     }
 }
