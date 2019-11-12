@@ -49,22 +49,28 @@ namespace CSharpExamplesForMathematicalOperations
     //    }
     //}
 
-    // Program to Get a number and display the sum of the digits 
+    //// Program to Get a number and display the sum of the digits 
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        int sum = 0, num, remainder;
+    //        Console.Write("Enter a Number : ");
+    //        num = int.Parse(Console.ReadLine());
+    //        while(num != 0)
+    //        {
+    //            remainder = num % 10;
+    //            num = num / 10;
+    //            sum = sum + remainder;
+    //        }
+    //        Console.WriteLine("The sum of the digits of the Number is : " + sum);
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Get a Number and Display the NUmber with its Reverse
     class Program
     {
-        static void Main(string[] args)
-        {
-            int sum = 0, num, remainder;
-            Console.Write("Enter a Number : ");
-            num = int.Parse(Console.ReadLine());
-            while(num != 0)
-            {
-                remainder = num % 10;
-                num = num / 10;
-                sum = sum + remainder;
-            }
-            Console.WriteLine("The sum of the digits of the Number is : " + sum);
-            Console.ReadLine();
-        }
+
     }
 }
