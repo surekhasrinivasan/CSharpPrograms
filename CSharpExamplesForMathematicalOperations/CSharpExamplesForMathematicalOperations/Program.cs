@@ -71,6 +71,11 @@ namespace CSharpExamplesForMathematicalOperations
     // Program to Get a Number and Display the NUmber with its Reverse
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            int num, reverse = 0;
+            Console.WriteLine("Enter a Number : ");
+            num = int.Parse(Console.ReadLine());
+        }
     }
 }
