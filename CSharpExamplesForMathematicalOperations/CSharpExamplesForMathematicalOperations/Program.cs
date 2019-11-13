@@ -111,6 +111,7 @@ namespace CSharpExamplesForMathematicalOperations
                     }
                 }Console.Write("\n");
             }
+            Console.ReadLine();
         }
     }
 }
