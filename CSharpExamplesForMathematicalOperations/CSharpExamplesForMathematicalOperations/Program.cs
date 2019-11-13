@@ -68,22 +68,28 @@ namespace CSharpExamplesForMathematicalOperations
     //    }
     //}
 
-    // Program to Get a Number and Display the NUmber with its Reverse
+    //// Program to Get a Number and Display the NUmber with its Reverse
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        int num, reverse = 0;
+    //        Console.WriteLine("Enter a Number : ");
+    //        num = int.Parse(Console.ReadLine());
+    //        while(num != 0)
+    //        {
+    //            reverse = reverse * 10;
+    //            reverse = reverse + num % 10;
+    //            num = num / 10;
+    //        }
+    //        Console.WriteLine("Reverse of Entered Number is " + reverse);
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Print a Binary Triangle 
     class Program
     {
-        static void Main(string[] args)
-        {
-            int num, reverse = 0;
-            Console.WriteLine("Enter a Number : ");
-            num = int.Parse(Console.ReadLine());
-            while(num != 0)
-            {
-                reverse = reverse * 10;
-                reverse = reverse + num % 10;
-                num = num / 10;
-            }
-            Console.WriteLine("Reverse of Entered Number is " + reverse);
-            Console.ReadLine();
-        }
+
     }
 }
