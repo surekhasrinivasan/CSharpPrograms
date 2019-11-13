@@ -90,6 +90,11 @@ namespace CSharpExamplesForMathematicalOperations
     // Program to Print a Binary Triangle 
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            int p, lastInt = 0, input;
+            Console.WriteLine("Enter the Number of Rows : ");
+            input = int.Parse(Console.ReadLine());
+        }
     }
 }
