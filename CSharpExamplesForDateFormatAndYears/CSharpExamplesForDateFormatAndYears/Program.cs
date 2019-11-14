@@ -12,5 +12,12 @@ namespace CSharpExamplesForDateFormatAndYears
         static void Main(string[] args)
         {
         }
+
+        int year;
+        public void readdata()
+        {
+            Console.WriteLine("Enter the Year in Four Digits: ");
+            year = Convert.ToInt32(Console.ReadLine());
+        }
     }
 }
