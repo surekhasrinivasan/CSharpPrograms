@@ -136,6 +136,8 @@ namespace CSharpExamplesForMathematicalOperations
                     count++;
                 }
             }
+            Console.WriteLine("Number of 1's in the Entered Number: " + count);
+            Console.ReadLine();
         }
     }
 }
