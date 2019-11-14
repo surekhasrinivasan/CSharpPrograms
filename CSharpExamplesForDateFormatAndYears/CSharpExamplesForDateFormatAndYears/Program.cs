@@ -19,5 +19,17 @@ namespace CSharpExamplesForDateFormatAndYears
             Console.WriteLine("Enter the Year in Four Digits: ");
             year = Convert.ToInt32(Console.ReadLine());
         }
+
+        public void leap()
+        {
+            if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+            {
+                Console.WriteLine("{0} is a Leap Year", year);
+            }
+            else
+            {
+                Console.WriteLine("{0} is not a Leap Year", year);
+            }
+        }
     }
 }
