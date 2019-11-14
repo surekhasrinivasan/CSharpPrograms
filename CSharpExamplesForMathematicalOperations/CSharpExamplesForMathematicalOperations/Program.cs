@@ -123,6 +123,19 @@ namespace CSharpExamplesForMathematicalOperations
             int m, count = 0;
             Console.WriteLine("Enter the Limit : ");
             m = int.Parse(Console.ReadLine());
+            int[] a = new int[m];
+            Console.WriteLine("Enter the Numbers :");
+            for(int i = 0; i < m; i++)
+            {
+                a[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            foreach(int o in a)
+            {
+                if(o == 1)
+                {
+                    count++;
+                }
+            }
         }
     }
 }
