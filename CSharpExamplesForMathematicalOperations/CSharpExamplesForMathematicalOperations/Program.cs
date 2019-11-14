@@ -118,6 +118,11 @@ namespace CSharpExamplesForMathematicalOperations
     // Program to Count the Number of 1's in the Entered number
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            int m, count = 0;
+            Console.WriteLine("Enter the Limit : ");
+            m = int.Parse(Console.ReadLine());
+        }
     }
 }
