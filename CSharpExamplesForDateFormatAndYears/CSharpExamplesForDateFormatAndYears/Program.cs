@@ -11,6 +11,9 @@ namespace CSharpExamplesForDateFormatAndYears
     {
         static void Main(string[] args)
         {
+            Program obj = new Program();
+            obj.readdata();
+            obj.leap();
         }
 
         int year;
