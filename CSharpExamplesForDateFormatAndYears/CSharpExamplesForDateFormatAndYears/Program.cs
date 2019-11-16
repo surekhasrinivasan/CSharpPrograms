@@ -42,6 +42,8 @@ namespace CSharpExamplesForDateFormatAndYears
         static void Main(string[] args)
         {
             DateTime date = new DateTime(2019, 11, 15);
+            Console.WriteLine("Some Date Formats : ");
+            Console.WriteLine("Date and Time: {0}", date);
         }
     }
 }
