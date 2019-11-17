@@ -73,6 +73,12 @@ namespace CSharpExamplesForDateFormatAndYears
     // Program to Display the ATM Transaction
     class Program
     {
-
+        public static void Main(string[] args)
+        {
+            int amount = 1000, deposit, withdraw;
+            int choice, pin = 0, x = 0;
+            Console.WriteLine("Enter your Pin Number : ");
+            pin = int.Parse(Console.ReadLine());
+        }
     }
 }
