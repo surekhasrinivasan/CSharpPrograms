@@ -79,6 +79,17 @@ namespace CSharpExamplesForDateFormatAndYears
             int choice, pin = 0, x = 0;
             Console.WriteLine("Enter your Pin Number : ");
             pin = int.Parse(Console.ReadLine());
+            while (true)
+            {
+                Console.WriteLine("*********Welcome to ATM Service***************\n");
+                Console.WriteLine("1. Check Balance\n");
+                Console.WriteLine("2. Withdraw Cash\n");
+                Console.WriteLine("3. Deposit Cash\n");
+                Console.WriteLine("4. Quit\n");
+                Console.WriteLine("**********************************************\n\n");
+                Console.WriteLine("Enter your choice : ");
+                choice = int.Parse(Console.ReadLine());
+            }
         }
     }
 }
