@@ -55,18 +55,24 @@ namespace CSharpExamplesForDateFormatAndYears
     //    }
     //}
 
-    // Program to compare two Dates
+    //// Program to compare two Dates
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        DateTime sd = new DateTime(2019, 06, 11);
+    //        Console.WriteLine("Starting Date : {0}", sd);
+    //        DateTime ed = sd.AddDays(10);
+    //        Console.WriteLine("Ending Date : {0}", ed);
+    //        if(sd < ed)
+    //            Console.WriteLine("{0} Occurs Before {1}", sd, ed);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to Display the ATM Transaction
     class Program
     {
-        static void Main(string[] args)
-        {
-            DateTime sd = new DateTime(2019, 06, 11);
-            Console.WriteLine("Starting Date : {0}", sd);
-            DateTime ed = sd.AddDays(10);
-            Console.WriteLine("Ending Date : {0}", ed);
-            if(sd < ed)
-                Console.WriteLine("{0} Occurs Before {1}", sd, ed);
-            Console.Read();
-        }
+
     }
 }
