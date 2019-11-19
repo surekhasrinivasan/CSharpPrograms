@@ -11,6 +11,9 @@ namespace CSharpExamplesOnBitwiseAndSwappingOperations
     {
         static void Main(string[] args)
         {
+            float height;
+            Console.WriteLine("Enter the Height (in centimeters) \n");
+            height = int.Parse(Console.ReadLine());
         }
     }
 }
