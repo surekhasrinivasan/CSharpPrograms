@@ -14,6 +14,13 @@ namespace CSharpExamplesOnBitwiseAndSwappingOperations
             float height;
             Console.WriteLine("Enter the Height (in centimeters) \n");
             height = int.Parse(Console.ReadLine());
+            if(height < 150.0)
+            {
+                Console.WriteLine("Dwarf \n");
+            }else if((height >= 150.0) && (height <= 165.0))
+            {
+                Console.WriteLine("Average Height \n");
+            }
         }
     }
 }
