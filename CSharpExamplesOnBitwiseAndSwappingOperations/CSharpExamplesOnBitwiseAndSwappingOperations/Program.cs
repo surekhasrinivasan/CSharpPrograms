@@ -17,9 +17,18 @@ namespace CSharpExamplesOnBitwiseAndSwappingOperations
             if(height < 150.0)
             {
                 Console.WriteLine("Dwarf \n");
-            }else if((height >= 150.0) && (height <= 165.0))
+            }
+            else if((height >= 150.0) && (height <= 165.0))
             {
                 Console.WriteLine("Average Height \n");
+            }
+            else if ((height >= 165.0) && (height <= 195.0))
+            {
+                Console.WriteLine("Taller \n");
+            }
+            else
+            {
+                Console.WriteLine("Abnormal height \n");
             }
         }
     }
