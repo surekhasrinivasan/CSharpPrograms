@@ -33,30 +33,36 @@ namespace CSharpExamplesOnBitwiseAndSwappingOperations
     //    }
     //}
 
-    // Program to Find the Frequency of the Word ʺtheʺ in a given Sentence
+    //// Program to Find the Frequency of the Word ʺtheʺ in a given Sentence
+    //class Program
+    //{
+    //    public static void Main()
+    //    {
+    //        string str;
+    //        Console.WriteLine("Enter the String : ");
+    //        str = Console.ReadLine();
+    //        Console.WriteLine(Counting.CountStringOccurrences(str, "the"));
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    //public static class Counting
+    //{
+    //    public static int CountStringOccurrences(string text, string pattern)
+    //    {
+    //        int count = 0, i = 0;
+    //        while((i = text.IndexOf(pattern, i)) != -1)
+    //        {
+    //            i += pattern.Length;
+    //            count++;
+    //        }
+    //        return count;
+    //    }
+    //}
+
+    // Program to Swap the Contents of two Numbers using Bitwise XOR Operation
     class Program
     {
-        public static void Main()
-        {
-            string str;
-            Console.WriteLine("Enter the String : ");
-            str = Console.ReadLine();
-            Console.WriteLine(Counting.CountStringOccurrences(str, "the"));
-            Console.ReadLine();
-        }
-    }
 
-    public static class Counting
-    {
-        public static int CountStringOccurrences(string text, string pattern)
-        {
-            int count = 0, i = 0;
-            while((i = text.IndexOf(pattern, i)) != -1)
-            {
-                i += pattern.Length;
-                count++;
-            }
-            return count;
-        }
     }
 }
