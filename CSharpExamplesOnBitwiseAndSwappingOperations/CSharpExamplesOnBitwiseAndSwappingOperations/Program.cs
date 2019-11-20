@@ -41,6 +41,8 @@ namespace CSharpExamplesOnBitwiseAndSwappingOperations
             string str;
             Console.WriteLine("Enter the String : ");
             str = Console.ReadLine();
+            Console.WriteLine(Counting.CountStringOccurrences(str, "the"));
+            Console.ReadLine();
         }
     }
 
