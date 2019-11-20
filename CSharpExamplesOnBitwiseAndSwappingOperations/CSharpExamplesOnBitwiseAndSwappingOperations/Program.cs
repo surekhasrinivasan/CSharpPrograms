@@ -43,4 +43,18 @@ namespace CSharpExamplesOnBitwiseAndSwappingOperations
             str = Console.ReadLine();
         }
     }
+
+    public static class Counting
+    {
+        public static int CountStringOccurrences(string text, string pattern)
+        {
+            int count = 0, i = 0;
+            while((i = text.IndexOf(pattern, i)) != -1)
+            {
+                i += pattern.Length;
+                count++;
+            }
+            return count;
+        }
+    }
 }
