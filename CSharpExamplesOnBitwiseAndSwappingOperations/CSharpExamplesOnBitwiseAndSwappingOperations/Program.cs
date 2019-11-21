@@ -63,6 +63,13 @@ namespace CSharpExamplesOnBitwiseAndSwappingOperations
     // Program to Swap the Contents of two Numbers using Bitwise XOR Operation
     class Program
     {
+        public static void Main()
+        {
+            int num1, num2;
+            Console.WriteLine("Enter two integers : ");
+            num1 = int.Parse(Console.ReadLine());
+            num2 = int.Parse(Console.ReadLine());
 
+        }
     }
 }
