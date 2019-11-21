@@ -11,6 +11,8 @@ namespace CSharpExamplesOnAccessSpecifiers
     {
         static void Main(string[] args)
         {
+            Two B = new Two();
+            B.show();
         }
     }
 
@@ -28,11 +30,13 @@ namespace CSharpExamplesOnAccessSpecifiers
         public void show()
         {
             Console.WriteLine("Values are : ");
+            //x = 10;
             y = 20;
             z = 30;
             a = 40;
             b = 50;
 
+            //Console.WriteLine(x); // Error - x is not accessible 
             Console.WriteLine(y);
             Console.WriteLine(z);
             Console.WriteLine(a);
