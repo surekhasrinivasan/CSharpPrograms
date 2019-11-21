@@ -22,4 +22,22 @@ namespace CSharpExamplesOnAccessSpecifiers
         public int a;
         protected internal int b;
     }
+
+    class Two : One
+    {
+        public void show()
+        {
+            Console.WriteLine("Values are : ");
+            y = 20;
+            z = 30;
+            a = 40;
+            b = 50;
+
+            Console.WriteLine(y);
+            Console.WriteLine(z);
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.ReadLine();
+        }
+    }
 }
