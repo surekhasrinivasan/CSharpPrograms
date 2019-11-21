@@ -13,4 +13,13 @@ namespace CSharpExamplesOnAccessSpecifiers
         {
         }
     }
+
+    class One
+    {
+        private int x;
+        protected int y;
+        internal int z;
+        public int a;
+        protected internal int b;
+    }
 }
