@@ -70,7 +70,11 @@ namespace CSharpExamplesOnBitwiseAndSwappingOperations
             num1 = int.Parse(Console.ReadLine());
             num2 = int.Parse(Console.ReadLine());
             Console.WriteLine("\n Before swapping num1 = {0} and num2 = {1}", num1, num2);
-
+            num1 = num1 ^ num2;
+            num2 = num1 ^ num2;
+            num1 = num1 ^ num2;
+            Console.WriteLine("\n After swapping num1 = {0} and num2 = {1}", num1, num2);
+            Console.ReadLine();
         }
     }
 }
