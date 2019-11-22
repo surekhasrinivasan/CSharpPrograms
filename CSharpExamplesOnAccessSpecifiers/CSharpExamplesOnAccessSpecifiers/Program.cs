@@ -48,6 +48,12 @@ namespace CSharpExamplesOnAccessSpecifiers
     // Program to Print a Diamond Using Nested Loop
     class Program
     {
+        public static void Main()
+        {
+            int number, i, k, count = 1;
 
+            Console.Write("Enter number of rows \n");
+            number = int.Parse(Console.ReadLine());
+        }
     }
 }
