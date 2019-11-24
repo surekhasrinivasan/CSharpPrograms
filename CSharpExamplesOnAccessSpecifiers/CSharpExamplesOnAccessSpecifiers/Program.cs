@@ -106,6 +106,21 @@ namespace CSharpExamplesOnAccessSpecifiers
             int num, x, y, count = 0;
             Console.WriteLine("Enter the number : ");
             num = int.Parse(Console.ReadLine());
+            x = num << 1;
+            y = x ^ num;
+            y = y + 1;
+            while((y / 2) != 0)
+            {
+                if(y % 2 != 0)
+                {
+                    count++;
+                    break;
+                }
+                else
+                {
+                    y = y / 2;
+                }
+            }
         }
         
     }
