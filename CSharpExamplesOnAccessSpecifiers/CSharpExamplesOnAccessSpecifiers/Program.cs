@@ -88,6 +88,8 @@ namespace CSharpExamplesOnAccessSpecifiers
             uint p = 1024 * 1024 * 1024;
             int y = -42;
 
+            Console.WriteLine("Left Shift Operations : ");
+            Console.WriteLine("{0}, {1}, {2}", x, x * 2, x<< 1);
         }
     }
 }
