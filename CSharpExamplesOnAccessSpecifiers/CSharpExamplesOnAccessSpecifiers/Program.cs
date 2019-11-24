@@ -101,6 +101,12 @@ namespace CSharpExamplesOnAccessSpecifiers
     // Program to check whether the given Integer has an Alternate Pattern
     class Program
     {
-
+        public static void Main()
+        {
+            int num, x, y, count = 0;
+            Console.WriteLine("Enter the number : ");
+            num = int.Parse(Console.ReadLine());
+        }
+        
     }
 }
