@@ -121,7 +121,15 @@ namespace CSharpExamplesOnAccessSpecifiers
                     y = y / 2;
                 }
             }
-        }
-        
+            if(count == 1)
+            {
+                Console.WriteLine("False");
+            }
+            else
+            {
+                Console.WriteLine("True");
+            }
+            Console.Read();
+        }        
     }
 }
