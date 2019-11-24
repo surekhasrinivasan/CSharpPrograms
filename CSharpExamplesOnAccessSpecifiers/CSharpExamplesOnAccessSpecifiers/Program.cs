@@ -45,37 +45,43 @@ namespace CSharpExamplesOnAccessSpecifiers
     //    }
     //}
 
-    // Program to Print a Diamond Using Nested Loop
+    //// Program to Print a Diamond Using Nested Loop
+    //class Program
+    //{
+    //    public static void Main()
+    //    {
+    //        int number, i, k, count = 1;
+
+    //        Console.Write("Enter number of rows \n");
+    //        number = int.Parse(Console.ReadLine());
+
+    //        count = number - 1;
+    //        for(k = 1; k <= number; k++)
+    //        {
+    //            for (i = 1; i <= count; i++)
+    //                Console.Write(" ");
+    //            count--;
+    //            for (i = 1; i <= 2 * k - 1; i++)
+    //                Console.Write("*");
+    //            Console.WriteLine();
+    //        }
+    //        count = 1;
+    //        for (k = 1; k <= number - 1; k++)
+    //        {
+    //            for (i = 1; i <= count; i++)
+    //                Console.Write(" ");
+    //            count++;
+    //            for (i = 1; i <= 2 * (number - k) - 1; i++)
+    //                Console.Write("*");
+    //            Console.WriteLine();
+    //        }
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Illustrate LeftShift Operations
     class Program
     {
-        public static void Main()
-        {
-            int number, i, k, count = 1;
 
-            Console.Write("Enter number of rows \n");
-            number = int.Parse(Console.ReadLine());
-
-            count = number - 1;
-            for(k = 1; k <= number; k++)
-            {
-                for (i = 1; i <= count; i++)
-                    Console.Write(" ");
-                count--;
-                for (i = 1; i <= 2 * k - 1; i++)
-                    Console.Write("*");
-                Console.WriteLine();
-            }
-            count = 1;
-            for (k = 1; k <= number - 1; k++)
-            {
-                for (i = 1; i <= count; i++)
-                    Console.Write(" ");
-                count++;
-                for (i = 1; i <= 2 * (number - k) - 1; i++)
-                    Console.Write("*");
-                Console.WriteLine();
-            }
-            Console.ReadLine();
-        }
     }
 }
