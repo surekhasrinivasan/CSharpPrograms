@@ -82,6 +82,12 @@ namespace CSharpExamplesOnAccessSpecifiers
     // Program to Illustrate LeftShift Operations
     class Program
     {
+        public static void Main()
+        {
+            int x = 1024 * 1024 * 1024;
+            uint p = 1024 * 1024 * 1024;
+            int y = -42;
 
+        }
     }
 }
