@@ -136,6 +136,11 @@ namespace CSharpExamplesOnAccessSpecifiers
     // Program to Read a Grade & Display the Equivalent Description
     class Program
     {
-
+        public static void Main()
+        {
+            char grade;
+            Console.WriteLine("Enter the Grade in UpperCase \n");
+            grade = Convert.ToChar(Console.ReadLine());
+        }
     }
 }
