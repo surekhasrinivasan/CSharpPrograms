@@ -98,38 +98,44 @@ namespace CSharpExamplesOnAccessSpecifiers
     //    }
     //}
 
-    // Program to check whether the given Integer has an Alternate Pattern
+    //// Program to check whether the given Integer has an Alternate Pattern
+    //class Program
+    //{
+    //    public static void Main()
+    //    {
+    //        int num, x, y, count = 0;
+    //        Console.WriteLine("Enter the number : ");
+    //        num = int.Parse(Console.ReadLine());
+    //        x = num << 1;
+    //        y = x ^ num;
+    //        y = y + 1;
+    //        while((y / 2) != 0)
+    //        {
+    //            if(y % 2 != 0)
+    //            {
+    //                count++;
+    //                break;
+    //            }
+    //            else
+    //            {
+    //                y = y / 2;
+    //            }
+    //        }
+    //        if(count == 1)
+    //        {
+    //            Console.WriteLine("False");
+    //        }
+    //        else
+    //        {
+    //            Console.WriteLine("True");
+    //        }
+    //        Console.Read();
+    //    }        
+    //}
+
+    // Program to Read a Grade & Display the Equivalent Description
     class Program
     {
-        public static void Main()
-        {
-            int num, x, y, count = 0;
-            Console.WriteLine("Enter the number : ");
-            num = int.Parse(Console.ReadLine());
-            x = num << 1;
-            y = x ^ num;
-            y = y + 1;
-            while((y / 2) != 0)
-            {
-                if(y % 2 != 0)
-                {
-                    count++;
-                    break;
-                }
-                else
-                {
-                    y = y / 2;
-                }
-            }
-            if(count == 1)
-            {
-                Console.WriteLine("False");
-            }
-            else
-            {
-                Console.WriteLine("True");
-            }
-            Console.Read();
-        }        
+
     }
 }
