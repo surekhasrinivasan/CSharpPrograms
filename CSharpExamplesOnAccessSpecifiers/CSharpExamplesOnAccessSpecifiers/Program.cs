@@ -141,6 +141,27 @@ namespace CSharpExamplesOnAccessSpecifiers
             char grade;
             Console.WriteLine("Enter the Grade in UpperCase \n");
             grade = Convert.ToChar(Console.ReadLine());
+            switch (grade)
+            {
+                case 'S':
+                    Console.WriteLine(" Super");
+                    break;
+                case 'A':
+                    Console.WriteLine(" Very Good");
+                    break;
+                case 'B':
+                    Console.WriteLine(" Fair");
+                    break;
+                case 'Y':
+                    Console.WriteLine(" Absent");
+                    break;
+                case 'F':
+                    Console.WriteLine(" Fail");
+                    break;
+                default:
+                    Console.WriteLine(" Error in Grade \n");
+                    break;
+            }
         }
     }
 }
