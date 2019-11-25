@@ -139,8 +139,9 @@ namespace CSharpExamplesOnAccessSpecifiers
         public static void Main()
         {
             char grade;
-            Console.WriteLine("Enter the Grade in UpperCase \n");
+            Console.WriteLine("Enter the Grade character :  \n");
             grade = Convert.ToChar(Console.ReadLine());
+            grade = Char.ToUpper(grade);
             switch (grade)
             {
                 case 'S':
@@ -160,8 +161,9 @@ namespace CSharpExamplesOnAccessSpecifiers
                     break;
                 default:
                     Console.WriteLine(" Error in Grade \n");
-                    break;
+                    break;                    
             }
+            Console.ReadLine();
         }
     }
 }
