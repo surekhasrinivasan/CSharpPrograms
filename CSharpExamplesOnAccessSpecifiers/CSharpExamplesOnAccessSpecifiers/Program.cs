@@ -176,6 +176,14 @@ namespace CSharpExamplesOnAccessSpecifiers
             Console.WriteLine("Enter the two numbers : ");
             a = int.Parse(Console.ReadLine());
             b = int.Parse(Console.ReadLine());
+            if(a > b)
+            {
+                Console.WriteLine("{0} is the Greatest Number", a);
+            }
+            else
+            {
+                Console.WriteLine("{0} is the Greatest Number", b);
+            }
 
         }
     }
