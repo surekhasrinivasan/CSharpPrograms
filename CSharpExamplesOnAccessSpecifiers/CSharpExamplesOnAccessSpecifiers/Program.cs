@@ -133,37 +133,43 @@ namespace CSharpExamplesOnAccessSpecifiers
     //    }        
     //}
 
-    // Program to Read a Grade & Display the Equivalent Description
+    //// Program to Read a Grade & Display the Equivalent Description
+    //class Program
+    //{
+    //    public static void Main()
+    //    {
+    //        char grade;
+    //        Console.WriteLine("Enter the Grade character :  \n");
+    //        grade = Convert.ToChar(Console.ReadLine());
+    //        grade = Char.ToUpper(grade);
+    //        switch (grade)
+    //        {
+    //            case 'S':
+    //                Console.WriteLine(" Super");
+    //                break;
+    //            case 'A':
+    //                Console.WriteLine(" Very Good");
+    //                break;
+    //            case 'B':
+    //                Console.WriteLine(" Fair");
+    //                break;
+    //            case 'Y':
+    //                Console.WriteLine(" Absent");
+    //                break;
+    //            case 'F':
+    //                Console.WriteLine(" Fail");
+    //                break;
+    //            default:
+    //                Console.WriteLine(" Error in Grade \n");
+    //                break;                    
+    //        }
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Find Greatest among 2 numbers
     class Program
     {
-        public static void Main()
-        {
-            char grade;
-            Console.WriteLine("Enter the Grade character :  \n");
-            grade = Convert.ToChar(Console.ReadLine());
-            grade = Char.ToUpper(grade);
-            switch (grade)
-            {
-                case 'S':
-                    Console.WriteLine(" Super");
-                    break;
-                case 'A':
-                    Console.WriteLine(" Very Good");
-                    break;
-                case 'B':
-                    Console.WriteLine(" Fair");
-                    break;
-                case 'Y':
-                    Console.WriteLine(" Absent");
-                    break;
-                case 'F':
-                    Console.WriteLine(" Fail");
-                    break;
-                default:
-                    Console.WriteLine(" Error in Grade \n");
-                    break;                    
-            }
-            Console.ReadLine();
-        }
+
     }
 }
