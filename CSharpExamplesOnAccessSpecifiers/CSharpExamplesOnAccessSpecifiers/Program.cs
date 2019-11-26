@@ -184,7 +184,7 @@ namespace CSharpExamplesOnAccessSpecifiers
             {
                 Console.WriteLine("{0} is the Greatest Number", b);
             }
-
+            Console.ReadLine();
         }
     }
 }
