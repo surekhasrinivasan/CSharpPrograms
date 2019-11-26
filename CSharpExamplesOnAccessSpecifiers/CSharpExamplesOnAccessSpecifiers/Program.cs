@@ -170,6 +170,13 @@ namespace CSharpExamplesOnAccessSpecifiers
     // Program to Find Greatest among 2 numbers
     class Program
     {
+        public static void Main()
+        {
+            int a, b;
+            Console.WriteLine("Enter the two numbers : ");
+            a = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
 
+        }
     }
 }
