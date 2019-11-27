@@ -135,5 +135,13 @@ namespace CSharpExamplesForDateFormatAndYears
         {
             Console.WriteLine("Some Random numbers that are generated are: ");
         }
+
+        static Random r = new Random();
+        static void Randfunc()
+        {
+            int n = r.Next();
+            Console.WriteLine(n);
+            Console.ReadLine();
+        }
     }
 }
