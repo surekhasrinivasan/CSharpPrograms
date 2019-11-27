@@ -131,6 +131,9 @@ namespace CSharpExamplesForDateFormatAndYears
     // Program to Generate Random Numbers 
     class Program
     {
-
+        static void Main()
+        {
+            Console.WriteLine("Some Random numbers that are generated are: ");
+        }
     }
 }
