@@ -134,6 +134,10 @@ namespace CSharpExamplesForDateFormatAndYears
         static void Main()
         {
             Console.WriteLine("Some Random numbers that are generated are: ");
+            for(int i = 1; i < 10; i++)
+            {
+                Randfunc();
+            }
         }
 
         static Random r = new Random();
