@@ -14,6 +14,8 @@ namespace CSharpExamplesForUnboxingOptnAndSealedClass
             int length, width, area;
             Console.WriteLine("Enter the length of room in feet: ");
             length = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the width of room in feet: ");
+            width = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
