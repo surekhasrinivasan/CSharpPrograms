@@ -11,6 +11,9 @@ namespace CSharpExamplesForUnboxingOptnAndSealedClass
     {
         static void Main(string[] args)
         {
+            int length, width, area;
+            Console.WriteLine("Enter the length of room in feet: ");
+            length = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
