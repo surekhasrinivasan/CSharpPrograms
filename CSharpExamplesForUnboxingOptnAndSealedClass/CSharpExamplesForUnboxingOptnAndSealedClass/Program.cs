@@ -26,7 +26,10 @@ namespace CSharpExamplesForUnboxingOptnAndSealedClass
     // Program to create Sealed Class
     class Program
     {
-
+        static void Main()
+        {
+            SealedClass sc = new SealedClass();
+        }
     }
 
     sealed class SealedClass
