@@ -55,6 +55,14 @@ namespace CSharpExamplesForUnboxingOptnAndSealedClass
             data = 0;
             return (object)data;
         }
-        
+
+        public static void Main()
+        {
+            Program p = new Program();
+            p.insert(10);
+            Console.WriteLine("Data : {0}", p.data);
+            Console.WriteLine("Data : {0}", p.delete());
+            Console.ReadLine();
+        }        
     }
 }
