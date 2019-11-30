@@ -48,7 +48,12 @@ namespace CSharpExamplesForUnboxingOptnAndSealedClass
         int data;
         void insert(object x)
         {
-            
+            data = (int)x * 5;            
+        }
+        object delete()
+        {
+            data = 0;
+            return (object)data;
         }
         
     }
