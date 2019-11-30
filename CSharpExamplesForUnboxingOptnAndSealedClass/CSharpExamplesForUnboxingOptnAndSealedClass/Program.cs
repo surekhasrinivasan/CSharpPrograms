@@ -45,6 +45,11 @@ namespace CSharpExamplesForUnboxingOptnAndSealedClass
     // Program to perform Unboxing Operation 
     class Program
     {
-
+        int data;
+        void insert(object x)
+        {
+            
+        }
+        
     }
 }
