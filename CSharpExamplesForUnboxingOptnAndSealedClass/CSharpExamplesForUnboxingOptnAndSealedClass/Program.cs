@@ -23,22 +23,28 @@ namespace CSharpExamplesForUnboxingOptnAndSealedClass
     //    }
     //}
 
-    // Program to create Sealed Class
+    //// Program to create Sealed Class
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        SealedClass sc = new SealedClass();
+    //        sc.x = 100;
+    //        sc.y = 180;
+    //        Console.WriteLine("x = {0}, y = {1}", sc.x, sc.y);
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    //sealed class SealedClass
+    //{
+    //    public int x;
+    //    public int y;
+    //}
+
+    // Program to perform Unboxing Operation 
     class Program
     {
-        static void Main()
-        {
-            SealedClass sc = new SealedClass();
-            sc.x = 100;
-            sc.y = 180;
-            Console.WriteLine("x = {0}, y = {1}", sc.x, sc.y);
-            Console.ReadLine();
-        }
-    }
 
-    sealed class SealedClass
-    {
-        public int x;
-        public int y;
     }
 }
