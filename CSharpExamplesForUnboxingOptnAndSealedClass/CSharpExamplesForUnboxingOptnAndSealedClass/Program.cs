@@ -69,6 +69,10 @@ namespace CSharpExamplesForUnboxingOptnAndSealedClass
     // Program to display all the Prime Numbers between 1 to 100
     class Program
     {
-        
+        static void Main()
+        {
+            bool isPrime = true;
+            Console.WriteLine("Prime Numbers: ");
+        }
     }
 }
