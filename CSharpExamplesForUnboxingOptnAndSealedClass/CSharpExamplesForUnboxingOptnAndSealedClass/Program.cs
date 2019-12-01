@@ -42,27 +42,33 @@ namespace CSharpExamplesForUnboxingOptnAndSealedClass
     //    public int y;
     //}
 
-    // Program to perform Unboxing Operation 
+    //// Program to perform Unboxing Operation 
+    //class Program
+    //{
+    //    int data;
+    //    void insert(object x)
+    //    {
+    //        data = (int)x * 5;            
+    //    }
+    //    object delete()
+    //    {
+    //        data = 0;
+    //        return (object)data;
+    //    }
+
+    //    public static void Main()
+    //    {
+    //        Program p = new Program();
+    //        p.insert(10);
+    //        Console.WriteLine("Data : {0}", p.data);
+    //        Console.WriteLine("Data : {0}", p.delete());
+    //        Console.ReadLine();
+    //    }        
+    //}
+
+    // Program to display all the Prime Numbers between 1 to 100
     class Program
     {
-        int data;
-        void insert(object x)
-        {
-            data = (int)x * 5;            
-        }
-        object delete()
-        {
-            data = 0;
-            return (object)data;
-        }
-
-        public static void Main()
-        {
-            Program p = new Program();
-            p.insert(10);
-            Console.WriteLine("Data : {0}", p.data);
-            Console.WriteLine("Data : {0}", p.delete());
-            Console.ReadLine();
-        }        
+        
     }
 }
