@@ -89,6 +89,7 @@ namespace CSharpExamplesForUnboxingOptnAndSealedClass
                 }
                 isPrime = true;
             }
+            Console.ReadKey();
         }
     }
 }
