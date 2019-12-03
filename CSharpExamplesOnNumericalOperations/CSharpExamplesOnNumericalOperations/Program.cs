@@ -21,6 +21,9 @@ namespace CSharpExamplesOnNumericalOperations
                 magnitude++;
                 num = num / 10;
             };
+
+            // Magnitude of an integer is the length of the integer 
+            // which is obtained using the mod function 
             Console.WriteLine("Magnitude: " + magnitude);
             Console.Read();
         }
