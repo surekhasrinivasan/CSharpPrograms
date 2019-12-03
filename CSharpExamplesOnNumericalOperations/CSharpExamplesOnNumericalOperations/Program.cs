@@ -14,6 +14,15 @@ namespace CSharpExamplesOnNumericalOperations
             int num, magnitude = 0;
             Console.WriteLine("Enter the number: ");
             num = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Number: " +num);
+            while (num > 0)
+            {
+                magnitude++;
+                num = num / 10;
+            };
+            Console.WriteLine("Magnitude: " + magnitude);
+            Console.Read();
         }
     }
 }
