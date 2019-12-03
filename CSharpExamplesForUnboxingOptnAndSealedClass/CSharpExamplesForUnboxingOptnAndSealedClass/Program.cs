@@ -113,6 +113,8 @@ namespace CSharpExamplesForUnboxingOptnAndSealedClass
             {
                 Console.WriteLine("Number is negative");
             }
+
+            Console.ReadLine();
         }
     }
 }
