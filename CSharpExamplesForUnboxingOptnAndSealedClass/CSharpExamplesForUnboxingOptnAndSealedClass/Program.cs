@@ -96,6 +96,10 @@ namespace CSharpExamplesForUnboxingOptnAndSealedClass
     // Program to accept a number from the User and display it if it is Positive
     class Program
     {
-
+        public static void Main()
+        {
+            Console.WriteLine("Enter a number: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+        }
     }
 }
