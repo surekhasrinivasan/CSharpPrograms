@@ -66,30 +66,36 @@ namespace CSharpExamplesForUnboxingOptnAndSealedClass
     //    }        
     //}
 
-    // Program to display all the Prime Numbers between 1 to 100
+    //// Program to display all the Prime Numbers between 1 to 100
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        bool isPrime = true;
+    //        Console.WriteLine("Prime Numbers: ");
+    //        for (int i = 2; i <= 100; i++)
+    //        {
+    //            for (int j = 2; j <= 100; j++)
+    //            {
+    //                if (i != j && i % j == 0)
+    //                {
+    //                    isPrime = false;
+    //                    break;
+    //                }
+    //            }
+    //            if (isPrime)
+    //            {
+    //                Console.WriteLine("\t" + i);
+    //            }
+    //            isPrime = true;
+    //        }
+    //        Console.ReadKey();
+    //    }
+    //}
+
+    // Program to accept a number from the User and display it if it is Positive
     class Program
     {
-        static void Main()
-        {
-            bool isPrime = true;
-            Console.WriteLine("Prime Numbers: ");
-            for (int i = 2; i <= 100; i++)
-            {
-                for (int j = 2; j <= 100; j++)
-                {
-                    if (i != j && i % j == 0)
-                    {
-                        isPrime = false;
-                        break;
-                    }
-                }
-                if (isPrime)
-                {
-                    Console.WriteLine("\t" + i);
-                }
-                isPrime = true;
-            }
-            Console.ReadKey();
-        }
+
     }
 }
