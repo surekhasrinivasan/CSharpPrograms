@@ -44,6 +44,13 @@ namespace CSharpExamplesOnNumericalOperations
             {
                 a[i] = int.Parse(Console.ReadLine());
             }
+            for(i = 0; i < m; i++)
+            {
+                sum += a[i];
+            }
+            average = sum / m;
+            Console.WriteLine("Average is {0}", average);
+            Console.ReadLine();
         }
     }
 }
