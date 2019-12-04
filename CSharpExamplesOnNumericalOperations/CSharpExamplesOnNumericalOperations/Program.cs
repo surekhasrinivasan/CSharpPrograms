@@ -37,6 +37,13 @@ namespace CSharpExamplesOnNumericalOperations
             int m, i, sum = 0, average = 0;
             Console.WriteLine("Enter the Number of Terms in the Array ");
             m = int.Parse(Console.ReadLine());
+
+            int[] a = new int[m];
+            Console.WriteLine("Enter the Array Elements ");
+            for(i = 0; i < m; i++)
+            {
+                a[i] = int.Parse(Console.ReadLine());
+            }
         }
     }
 }
