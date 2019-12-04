@@ -32,6 +32,11 @@ namespace CSharpExamplesOnNumericalOperations
     // Program to compute average for the set of values
     class Program
     {
-
+        public static void Main()
+        {
+            int m, i, sum = 0, average = 0;
+            Console.WriteLine("Enter the Number of Terms in the Array ");
+            m = int.Parse(Console.ReadLine());
+        }
     }
 }
