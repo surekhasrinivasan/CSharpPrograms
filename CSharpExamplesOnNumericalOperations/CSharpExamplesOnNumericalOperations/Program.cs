@@ -57,6 +57,9 @@ namespace CSharpExamplesOnNumericalOperations
     // Program to display Numbers in the form of Triangle
     class Program
     {
-
+        public static void Main()
+        {
+            int[,] arr = new int[8, 8];
+        }
     }
 }
