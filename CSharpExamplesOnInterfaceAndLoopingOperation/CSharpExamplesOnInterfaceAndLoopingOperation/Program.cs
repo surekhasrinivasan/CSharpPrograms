@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,10 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
     // Program to implement PhoneBook
     class Program
     {
-       
+       static void Main()
+        {
+            Hashtable tab = new Hashtable();
+            string fileName;
+        }
     }
 }
