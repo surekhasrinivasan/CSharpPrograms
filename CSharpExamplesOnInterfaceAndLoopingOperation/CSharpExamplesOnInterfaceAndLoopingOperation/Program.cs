@@ -34,7 +34,18 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
                 line = r.ReadLine();
             }
             r.Close();
-                
+            for (; ; )
+            {
+                Console.Write("Name : ");
+                string name = Console.ReadLine().Trim();
+                if (name == "")
+                    break;
+                object phone = tab[name];
+                if (phone == null)
+                    Console.WriteLine("-- Not Found in Phone Book");
+                else
+                    Console.WriteLine(phone);
+            }
         }
     }
 }
