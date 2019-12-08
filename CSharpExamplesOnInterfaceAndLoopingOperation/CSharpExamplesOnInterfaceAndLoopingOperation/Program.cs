@@ -66,5 +66,19 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
             a = b;
         }
 
+        public object this[int i]
+        {
+            set
+            {
+                if (i >= a.Length) Grow();
+                a[i] = value;
+            }
+            get
+            {
+                if (i >= a.Length) Grow();
+                return a[i];
+            }
+        }
+
     }
 }
