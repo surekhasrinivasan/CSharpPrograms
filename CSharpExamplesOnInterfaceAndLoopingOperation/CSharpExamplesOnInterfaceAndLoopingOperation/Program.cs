@@ -58,5 +58,7 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
         {
             a = new object[size];
         }
+        public GrowableArray() : this(8) { }
+
     }
 }
