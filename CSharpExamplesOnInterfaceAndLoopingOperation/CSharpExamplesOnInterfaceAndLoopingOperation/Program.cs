@@ -59,6 +59,12 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
             a = new object[size];
         }
         public GrowableArray() : this(8) { }
+        void Grow()
+        {
+            object[] b = new object[2 * a.Length];
+            Array.Copy(a, b, a.Length);
+            a = b;
+        }
 
     }
 }
