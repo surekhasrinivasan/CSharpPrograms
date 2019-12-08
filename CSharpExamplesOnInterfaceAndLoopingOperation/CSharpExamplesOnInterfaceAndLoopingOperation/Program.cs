@@ -50,8 +50,8 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
     //}
 
     // Program to Implement for-each in Interface
-    class GrowableArray
+    class GrowableArray : IEnumerable
     {
-
+        object[] a;
     }
 }
