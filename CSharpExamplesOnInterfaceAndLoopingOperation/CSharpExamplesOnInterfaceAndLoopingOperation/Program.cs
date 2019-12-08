@@ -53,5 +53,10 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
     class GrowableArray : IEnumerable
     {
         object[] a;
+
+        public GrowableArray(int size)
+        {
+            a = new object[size];
+        }
     }
 }
