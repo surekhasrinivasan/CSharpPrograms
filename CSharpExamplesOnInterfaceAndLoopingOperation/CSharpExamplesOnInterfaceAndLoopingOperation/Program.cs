@@ -110,5 +110,16 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
         }
     }
 
-    
+    class Test
+    {
+        public static void Main()
+        {
+            GrowableArray a = new GrowableArray(2);
+            a[0] = 0;
+            a[1] = 1;
+            a[3] = 3;
+            foreach (object x in a) Console.Write(" " + x);
+            Console.ReadLine();
+        }
+    }    
 }
