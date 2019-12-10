@@ -129,6 +129,12 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
         public static void Main()
         {
             int velocity, time, acceleration;
+
+            Console.WriteLine("Enter the Velocity: ");
+            velocity = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the Time: ");
+            time = int.Parse(Console.ReadLine());
         }
     }
 }
