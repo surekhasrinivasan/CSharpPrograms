@@ -145,6 +145,9 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
     // Program to find a number using Pythagoras Theorem
     class Program
     {
-
+        public static void Main()
+        {
+            double num1, num2, result;
+        }
     }
 }
