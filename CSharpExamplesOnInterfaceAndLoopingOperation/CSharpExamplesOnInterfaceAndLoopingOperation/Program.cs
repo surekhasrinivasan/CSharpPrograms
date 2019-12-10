@@ -123,22 +123,28 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
     //    }
     //}    
 
-    // Program to calculate Acceleration
+    //// Program to calculate Acceleration
+    //class Program
+    //{
+    //    public static void Main()
+    //    {
+    //        int velocity, time, acceleration;
+
+    //        Console.WriteLine("Enter the Velocity: ");
+    //        velocity = int.Parse(Console.ReadLine());
+
+    //        Console.WriteLine("Enter the Time: ");
+    //        time = int.Parse(Console.ReadLine());
+
+    //        acceleration = velocity / time;
+    //        Console.WriteLine("Acceleration : {0}", acceleration);
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to find a number using Pythagoras Theorem
     class Program
     {
-        public static void Main()
-        {
-            int velocity, time, acceleration;
 
-            Console.WriteLine("Enter the Velocity: ");
-            velocity = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Enter the Time: ");
-            time = int.Parse(Console.ReadLine());
-
-            acceleration = velocity / time;
-            Console.WriteLine("Acceleration : {0}", acceleration);
-            Console.ReadLine();
-        }
     }
 }
