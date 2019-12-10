@@ -135,6 +135,10 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
 
             Console.WriteLine("Enter the Time: ");
             time = int.Parse(Console.ReadLine());
+
+            acceleration = velocity / time;
+            Console.WriteLine("Acceleration : {0}", acceleration);
+            Console.ReadLine();
         }
     }
 }
