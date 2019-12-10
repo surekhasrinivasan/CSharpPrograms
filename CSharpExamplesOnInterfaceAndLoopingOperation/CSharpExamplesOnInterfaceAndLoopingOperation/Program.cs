@@ -126,6 +126,9 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
     // Program to calculate Acceleration
     class Program
     {
-
+        public static void Main()
+        {
+            int velocity, time, acceleration;
+        }
     }
 }
