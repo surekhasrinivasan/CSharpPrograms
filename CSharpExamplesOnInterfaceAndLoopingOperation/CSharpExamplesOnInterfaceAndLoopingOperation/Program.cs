@@ -148,6 +148,12 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
         public static void Main()
         {
             double num1, num2, result;
+            Console.WriteLine("Enter the first value: ");
+            num1 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the second value: ");
+            num2 = double.Parse(Console.ReadLine());
+
         }
     }
 }
