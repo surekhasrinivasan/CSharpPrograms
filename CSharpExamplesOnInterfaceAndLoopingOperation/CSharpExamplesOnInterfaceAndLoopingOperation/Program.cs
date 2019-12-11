@@ -154,6 +154,9 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
             Console.WriteLine("Enter the second value: ");
             num2 = double.Parse(Console.ReadLine());
 
+            result = Math.Sqrt(num1 * num1 + num2 * num2);
+            Console.WriteLine("The Other number is : {0}", result);
+            Console.ReadLine();
         }
     }
 }
