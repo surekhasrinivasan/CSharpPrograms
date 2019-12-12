@@ -142,21 +142,27 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
     //    }
     //}
 
-    // Program to find a number using Pythagoras Theorem
+    //// Program to find a number using Pythagoras Theorem
+    //class Program
+    //{
+    //    public static void Main()
+    //    {
+    //        double num1, num2, result;
+    //        Console.WriteLine("Enter the first value: ");
+    //        num1 = double.Parse(Console.ReadLine());
+
+    //        Console.WriteLine("Enter the second value: ");
+    //        num2 = double.Parse(Console.ReadLine());
+
+    //        result = Math.Sqrt(num1 * num1 + num2 * num2);
+    //        Console.WriteLine("The Other number is : {0}", result);
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to perform division of Exponents of same base 
     class Program
     {
-        public static void Main()
-        {
-            double num1, num2, result;
-            Console.WriteLine("Enter the first value: ");
-            num1 = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter the second value: ");
-            num2 = double.Parse(Console.ReadLine());
-
-            result = Math.Sqrt(num1 * num1 + num2 * num2);
-            Console.WriteLine("The Other number is : {0}", result);
-            Console.ReadLine();
-        }
     }
 }
