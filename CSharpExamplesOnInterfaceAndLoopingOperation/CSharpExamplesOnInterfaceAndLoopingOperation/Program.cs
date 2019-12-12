@@ -167,6 +167,14 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
         {
             Console.WriteLine("Enter the Base: ");
             double num = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the First Exponent: ");
+            double exp1 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the Second Exponent: ");
+            double exp2 = double.Parse(Console.ReadLine());
+
+
         }
     }
 }
