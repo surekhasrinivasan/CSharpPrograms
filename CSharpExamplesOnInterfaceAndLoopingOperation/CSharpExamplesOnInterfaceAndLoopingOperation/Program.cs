@@ -163,6 +163,10 @@ namespace CSharpExamplesOnInterfaceAndLoopingOperation
     // Program to perform division of Exponents of same base 
     class Program
     {
-
+        static void Main()
+        {
+            Console.WriteLine("Enter the Base: ");
+            double num = double.Parse(Console.ReadLine());
+        }
     }
 }
