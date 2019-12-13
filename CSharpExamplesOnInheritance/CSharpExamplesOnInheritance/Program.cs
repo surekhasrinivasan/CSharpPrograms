@@ -12,5 +12,13 @@ namespace CSharpExamplesOnInheritance
         static void Main(string[] args)
         {
         }
+
+        class Mode
+        {
+            public void mode()
+            {
+                Console.WriteLine("There are many modes of Transport!!");
+            }
+        }
     }
 }
