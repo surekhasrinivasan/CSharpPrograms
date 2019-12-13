@@ -20,5 +20,13 @@ namespace CSharpExamplesOnInheritance
                 Console.WriteLine("There are many modes of Transport!!");
             }
         }
+
+        class Vehicle : Mode
+        {
+            public void feature()
+            {
+                Console.WriteLine("They mainly help in travelling !!");
+            }
+        }
     }
 }
