@@ -46,5 +46,13 @@ namespace CSharpExamplesOnInheritance
 
     }
 
+    class Teacher
+    {
+        public void Teach()
+        {
+            Console.WriteLine("Teach");
+        }
+    }
+
     
 }
