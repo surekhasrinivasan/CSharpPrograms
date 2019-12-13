@@ -43,7 +43,15 @@ namespace CSharpExamplesOnInheritance
     // Program to illustrate Single inheritance
     class Program
     {
-
+        static void Main()
+        {
+            Teacher d = new Teacher();
+            d.Teach();
+            Student s = new Student();
+            s.Learn();
+            s.Teach();
+            Console.ReadKey();
+        }
     }
 
     class Teacher
