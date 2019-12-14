@@ -75,4 +75,12 @@ namespace CSharpExamplesOnInheritance
     {
 
     }
+
+    class Principal
+    {
+        public void Monitor()
+        {
+            Console.WriteLine("Monitor");
+        }
+    }
 }
