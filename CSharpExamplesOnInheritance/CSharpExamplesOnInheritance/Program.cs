@@ -83,4 +83,13 @@ namespace CSharpExamplesOnInheritance
             Console.WriteLine("Monitor");
         }
     }
+
+    class Teacher : Principal
+    {
+        public void Teach()
+        {
+            Console.WriteLine("Teach");
+        }
+    }
+
 }
