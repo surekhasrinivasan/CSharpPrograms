@@ -40,33 +40,39 @@ namespace CSharpExamplesOnInheritance
     //    }
     //}
 
-    // Program to illustrate Single inheritance
+    //// Program to illustrate Single inheritance
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        Teacher d = new Teacher();
+    //        d.Teach();
+    //        Student s = new Student();
+    //        s.Learn();
+    //        s.Teach();
+    //        Console.ReadKey();
+    //    }
+    //}
+
+    //class Teacher
+    //{
+    //    public void Teach()
+    //    {
+    //        Console.WriteLine("Teach");
+    //    }
+    //}
+
+    //class Student : Teacher
+    //{
+    //    public void Learn()
+    //    {
+    //        Console.WriteLine("Learn");
+    //    }
+    //}    
+
+    // Program to illustrate Hierarchical Inheritance
     class Program
     {
-        static void Main()
-        {
-            Teacher d = new Teacher();
-            d.Teach();
-            Student s = new Student();
-            s.Learn();
-            s.Teach();
-            Console.ReadKey();
-        }
-    }
 
-    class Teacher
-    {
-        public void Teach()
-        {
-            Console.WriteLine("Teach");
-        }
     }
-
-    class Student : Teacher
-    {
-        public void Learn()
-        {
-            Console.WriteLine("Learn");
-        }
-    }    
 }
