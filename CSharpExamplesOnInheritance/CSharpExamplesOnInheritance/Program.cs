@@ -73,7 +73,18 @@ namespace CSharpExamplesOnInheritance
     // Program to illustrate Hierarchical Inheritance
     class Program
     {
-
+        public static void Main()
+        {
+            Principal p = new Principal();
+            p.Monitor();
+            Teacher t = new Teacher();
+            t.Monitor();
+            t.Teach();
+            Student s = new Student();
+            s.Monitor();
+            s.Learn();
+            Console.ReadKey();
+        }
     }
 
     class Principal
