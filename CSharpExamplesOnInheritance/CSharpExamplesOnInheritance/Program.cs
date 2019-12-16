@@ -114,7 +114,7 @@ namespace CSharpExamplesOnInheritance
     // Program to illustrate multilevel inheritance with virtual methods
     class Program
     {
-
+        
     }
 
     public class Person
@@ -129,7 +129,7 @@ namespace CSharpExamplesOnInheritance
         }
     }
 
-    public class Student : Person
+    class Student : Person
     {
         public string id = "ABC";
         public override void GetInfo()
@@ -139,4 +139,13 @@ namespace CSharpExamplesOnInheritance
         }
     }
 
+    class Stud : Student
+    {
+        private string StudentAddress = "USA";
+        public void GetInfo()
+        {
+            base.GetInfo();
+            Console.WriteLine("Student Address: {0}", StudentAddress);
+        }
+    }
 }
