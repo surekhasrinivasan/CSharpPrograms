@@ -189,6 +189,13 @@ namespace CSharpExamplesOnInheritance
         private double cost;
         public Tabletop(double l, double w) : base(l, w) { } 
 
+        public double costcal()
+        {
+            double cost;
+            cost = GetArea() * 70;
+            return cost;
+        }
+
         
     }
 }
