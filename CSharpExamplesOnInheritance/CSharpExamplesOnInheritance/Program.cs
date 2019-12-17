@@ -111,48 +111,54 @@ namespace CSharpExamplesOnInheritance
     //    }
     //}
 
-    // Program to illustrate multilevel inheritance with virtual methods
+    //// Program to illustrate multilevel inheritance with virtual methods
+    //class Program
+    //{
+    //    public static void Main()
+    //    {
+    //        Student S = new Student();
+    //        S.GetInfo();
+    //        Stud stud = new Stud();
+    //        stud.GetInfo();
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    //public class Person
+    //{
+    //    protected string RNO = "44";
+    //    protected string name = "Ram";
+    //    public virtual void GetInfo()
+    //    {
+    //        Console.WriteLine("Name: {0}", name);
+    //        Console.WriteLine("RNO: {0}", RNO);
+    //        Console.WriteLine( );
+    //    }
+    //}
+
+    //class Student : Person
+    //{
+    //    public string id = "ABC";
+    //    public override void GetInfo()
+    //    {
+    //        base.GetInfo();
+    //        Console.WriteLine("Student ID: {0}", id);
+    //    }
+    //}
+
+    //class Stud : Student
+    //{
+    //    private string StudentAddress = "USA";
+    //    public void GetInfo()
+    //    {
+    //        base.GetInfo();
+    //        Console.WriteLine("Student Address: {0}", StudentAddress);
+    //    }
+    //}
+
+    // Program to display cost of a Rectangle Plot using Inheritance
     class Program
     {
-        public static void Main()
-        {
-            Student S = new Student();
-            S.GetInfo();
-            Stud stud = new Stud();
-            stud.GetInfo();
-            Console.ReadLine();
-        }
-    }
 
-    public class Person
-    {
-        protected string RNO = "44";
-        protected string name = "Ram";
-        public virtual void GetInfo()
-        {
-            Console.WriteLine("Name: {0}", name);
-            Console.WriteLine("RNO: {0}", RNO);
-            Console.WriteLine( );
-        }
-    }
-
-    class Student : Person
-    {
-        public string id = "ABC";
-        public override void GetInfo()
-        {
-            base.GetInfo();
-            Console.WriteLine("Student ID: {0}", id);
-        }
-    }
-
-    class Stud : Student
-    {
-        private string StudentAddress = "USA";
-        public void GetInfo()
-        {
-            base.GetInfo();
-            Console.WriteLine("Student Address: {0}", StudentAddress);
-        }
     }
 }
