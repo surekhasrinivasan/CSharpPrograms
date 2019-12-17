@@ -172,5 +172,9 @@ namespace CSharpExamplesOnInheritance
             length = l;
             width = w;
         }
+        public double GetArea()
+        {
+            return length * width;
+        }
     }
 }
