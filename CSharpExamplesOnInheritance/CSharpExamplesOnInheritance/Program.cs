@@ -183,4 +183,12 @@ namespace CSharpExamplesOnInheritance
             Console.WriteLine("Area: {0}", GetArea());
         }
     }
+
+    class Tabletop : Rectangle
+    {
+        private double cost;
+        public Tabletop(double l, double w) : base(l, w) { } 
+
+        
+    }
 }
