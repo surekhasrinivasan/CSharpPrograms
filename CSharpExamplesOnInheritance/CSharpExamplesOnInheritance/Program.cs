@@ -114,7 +114,14 @@ namespace CSharpExamplesOnInheritance
     // Program to illustrate multilevel inheritance with virtual methods
     class Program
     {
-        
+        public static void Main()
+        {
+            Student S = new Student();
+            S.GetInfo();
+            Stud stud = new Stud();
+            stud.GetInfo();
+            Console.ReadLine();
+        }
     }
 
     public class Person
