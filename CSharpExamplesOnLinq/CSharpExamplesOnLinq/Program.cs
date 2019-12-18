@@ -11,6 +11,9 @@ namespace CSharpExamplesOnLinq
     {
         static void Main(string[] args)
         {
+            string[] arr = {"aaa.txt", "bbb.TXT", "xyz.abc.pdf", "aaaa.PDF",
+                             "abc.xml", "ccc.txt", "zzz.txt"};
+
         }
     }
 }
