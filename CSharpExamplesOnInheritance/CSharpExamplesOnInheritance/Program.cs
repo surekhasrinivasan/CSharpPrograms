@@ -199,7 +199,16 @@ namespace CSharpExamplesOnInheritance
         {
             base.Display();
             Console.WriteLine("Cost: {0}", costcal());
+        }        
+    }
+
+    class CalRectangle
+    {
+        static void Main()
+        {
+            Tabletop t = new Tabletop(7.5, 8.03);
+            t.Display();
+            Console.ReadLine();
         }
-        
     }
 }
