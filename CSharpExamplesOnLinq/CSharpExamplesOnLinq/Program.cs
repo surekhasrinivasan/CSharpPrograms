@@ -22,6 +22,11 @@ namespace CSharpExamplesOnLinq
                                 Count = extCnt.Count()
                             });
 
+            foreach(var v in egrp)
+            {
+                Console.WriteLine("{0} File(s) with {1} Extension", v.Count, v.Extension);
+            }
+            Console.ReadLine();
         }
     }
 }
