@@ -33,6 +33,9 @@ namespace CSharpExamplesOnLinq
     // Program to calculate size of File using Linq
     class Program
     {
-
+        static void Main()
+        {
+            string[] dirfiles = Directory.GetFiles("C:\SampleFolder");
+        }
     }
 }
