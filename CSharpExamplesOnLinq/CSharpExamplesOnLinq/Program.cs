@@ -30,17 +30,22 @@ namespace CSharpExamplesOnLinq
     //    }
     //}
 
-    // Program to calculate size of File using Linq
+    //// Program to calculate size of File using Linq
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        string[] dirfiles = Directory.GetFiles("C:\\SampleFolder");
+    //        var avg = dirfiles.Select(file => new FileInfo(file).Length).Average();
+    //        avg = Math.Round(avg / 10, 1);
+    //        Console.WriteLine("The average file size is {0} MB", avg);
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to generate odd numbers in parallel using linq
     class Program
     {
-        static void Main()
-        {
-            string[] dirfiles = Directory.GetFiles("C:\SampleFolder");
-            var avg = dirfiles.Select(file => new FileInfo(file).Length).Average();
-            avg = Math.Round(avg / 10, 1);
-            Console.WriteLine("The average file size is {0} MB", avg);
-            Console.ReadLine();
-        }
+
     }
 }
-.
