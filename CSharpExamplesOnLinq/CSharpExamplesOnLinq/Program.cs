@@ -54,6 +54,7 @@ namespace CSharpExamplesOnLinq
             {
                 Console.WriteLine(n);
             }
+            Console.ReadLine();
         }
     }
 }
