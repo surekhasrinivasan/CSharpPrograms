@@ -37,6 +37,8 @@ namespace CSharpExamplesOnLinq
         {
             string[] dirfiles = Directory.GetFiles("C:\SampleFolder");
             var avg = dirfiles.Select(file => new FileInfo(file).Length).Average();
+            avg = Math.Round(avg / 10, 1);
         }
     }
 }
+.
