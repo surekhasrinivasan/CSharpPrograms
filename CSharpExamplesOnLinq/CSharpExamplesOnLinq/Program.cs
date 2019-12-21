@@ -50,6 +50,10 @@ namespace CSharpExamplesOnLinq
         {
             IEnumerable<int> oddNums = ((ParallelQuery<int>)ParallelEnumerable.Range(20, 2000))
                 .Where(x => x % 2 != 0).Select(i => i);
+            foreach(int n in oddNums)
+            {
+                Console.WriteLine(n);
+            }
         }
     }
 }
