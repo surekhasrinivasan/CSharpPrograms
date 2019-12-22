@@ -65,7 +65,8 @@ namespace CSharpExamplesOnLinq
         public static void Main()
         {
             var t = typeof(IEnumerable);
-            Console.WriteLine(t);
+            var typesIEnum = AppDomain.CurrentDomain.GetAssemblies().SelectMany(x =>
+                                x.GetTypes()).Where(x => t.IsAssignableFrom(x));
         }
     }
 }
