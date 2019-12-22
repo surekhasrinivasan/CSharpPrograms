@@ -43,18 +43,24 @@ namespace CSharpExamplesOnLinq
     //    }
     //}
 
-    // Program to generate odd numbers in parallel using linq
+    //// Program to generate odd numbers in parallel using linq
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        IEnumerable<int> oddNums = ((ParallelQuery<int>)ParallelEnumerable.Range(20, 2000))
+    //            .Where(x => x % 2 != 0).Select(i => i);
+    //        foreach(int n in oddNums)
+    //        {
+    //            Console.WriteLine(n);
+    //        }
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to implement IEnumerable Interface using LINQ
     class Program
     {
-        static void Main()
-        {
-            IEnumerable<int> oddNums = ((ParallelQuery<int>)ParallelEnumerable.Range(20, 2000))
-                .Where(x => x % 2 != 0).Select(i => i);
-            foreach(int n in oddNums)
-            {
-                Console.WriteLine(n);
-            }
-            Console.ReadLine();
-        }
+
     }
 }
