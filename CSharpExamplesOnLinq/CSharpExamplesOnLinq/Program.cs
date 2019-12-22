@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -61,6 +62,10 @@ namespace CSharpExamplesOnLinq
     // Program to implement IEnumerable Interface using LINQ
     class Program
     {
-
+        public static void Main()
+        {
+            var t = typeof(IEnumerable);
+            Console.WriteLine(t);
+        }
     }
 }
