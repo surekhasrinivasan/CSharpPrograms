@@ -110,4 +110,10 @@ namespace CSharpExamplesOnLinq
         public string Phone { get; set; }
         public override string ToString() { return Email + "," + Phone; }
     }
+
+    public class ScoreInfo
+    {
+        public double Average { get; set; }
+        public int ID { get; set; }
+    }
 }
