@@ -78,6 +78,12 @@ namespace CSharpExamplesOnLinq
     // Program to divide sequence into groups using Linq
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            var seq = Enumerable.Range(100, 100).Select(x => x / 10f);
+        }
     }
+
+
+
 }
