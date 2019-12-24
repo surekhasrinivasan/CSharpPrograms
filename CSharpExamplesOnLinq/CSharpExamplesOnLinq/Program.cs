@@ -59,19 +59,25 @@ namespace CSharpExamplesOnLinq
     //    }
     //}
 
-    // Program to implement IEnumerable Interface using LINQ
+    //// Program to implement IEnumerable Interface using LINQ
+    //class Program
+    //{
+    //    public static void Main()
+    //    {
+    //        var t = typeof(IEnumerable);
+    //        var typesIEnum = AppDomain.CurrentDomain.GetAssemblies().SelectMany(x =>
+    //                            x.GetTypes()).Where(x => t.IsAssignableFrom(x));
+    //        foreach(var types in typesIEnum)
+    //        {
+    //            Console.WriteLine(types.FullName);
+    //        }
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to divide sequence into groups using Linq
     class Program
     {
-        public static void Main()
-        {
-            var t = typeof(IEnumerable);
-            var typesIEnum = AppDomain.CurrentDomain.GetAssemblies().SelectMany(x =>
-                                x.GetTypes()).Where(x => t.IsAssignableFrom(x));
-            foreach(var types in typesIEnum)
-            {
-                Console.WriteLine(types.FullName);
-            }
-            Console.ReadLine();
-        }
+
     }
 }
