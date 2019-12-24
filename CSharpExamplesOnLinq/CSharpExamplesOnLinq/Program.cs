@@ -93,6 +93,13 @@ namespace CSharpExamplesOnLinq
     // Program to display the student details using Select Clause Linq
     class Program
     {
-
+        public class Student
+        {
+            public string First { get; set; }
+            public string Last { get; set; }
+            public int ID { get; set; }
+            public List<int> Marks;
+            
+        }
     }
 }
