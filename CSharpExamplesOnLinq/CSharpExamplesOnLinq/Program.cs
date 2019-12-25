@@ -99,7 +99,10 @@ namespace CSharpExamplesOnLinq
             public string Last { get; set; }
             public int ID { get; set; }
             public List<int> Marks;
-            
+            public ContactInfo GetContactInfo(Programs pg, int id)
+            {
+                
+            }
         }
     }
 
