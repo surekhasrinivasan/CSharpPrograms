@@ -101,7 +101,13 @@ namespace CSharpExamplesOnLinq
             public List<int> Marks;
             public ContactInfo GetContactInfo(Program pg, int id)
             {
+                ContactInfo allinfo =
+                (from ci in pg.contactList
+                 where ci.ID == id
+                 select ci)
+                .FirstOrDefault();
 
+                return allinfo;
             }
         }
 
