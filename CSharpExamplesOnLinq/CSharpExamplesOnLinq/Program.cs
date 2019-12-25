@@ -99,24 +99,37 @@ namespace CSharpExamplesOnLinq
             public string Last { get; set; }
             public int ID { get; set; }
             public List<int> Marks;
-            public ContactInfo GetContactInfo(Programs pg, int id)
+            public ContactInfo GetContactInfo(Program pg, int id)
             {
-                
+
             }
         }
-    }
 
-    public class ContactInfo
-    {
-        public int ID { get; set; }
-        public string Email { get; set; }
-        public string Phone { get; set; }
-        public override string ToString() { return Email + "," + Phone; }
-    }
 
-    public class ScoreInfo
-    {
-        public double Average { get; set; }
-        public int ID { get; set; }
+        public class ContactInfo
+        {
+            public int ID { get; set; }
+            public string Email { get; set; }
+            public string Phone { get; set; }
+            public override string ToString() { return Email + "," + Phone; }
+        }
+
+        public class ScoreInfo
+        {
+            public double Average { get; set; }
+            public int ID { get; set; }
+        }
+
+        List<Student> students = new List<Student>
+        {
+            new Student {First="Tom", Last=".S", ID=1,
+                        Marks= new List<int>() {97, 92, 81, 60}},
+            new Student {First="Jerry", Last=".M", ID=2,
+                        Marks= new List<int>() {75, 84, 91, 39}},
+            new Student {First="Bob", Last=".P", ID=3,
+                        Marks= new List<int>() {88, 94, 65, 91}},
+            new Student {First="Mark", Last=".G", ID=4,
+                        Marks= new List<int>() {97, 89, 85, 82}},
+        };
     }
 }
