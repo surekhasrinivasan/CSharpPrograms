@@ -150,5 +150,10 @@ namespace CSharpExamplesOnLinq
             new ContactInfo {ID=113, Email="Bobstar@aaa.com", Phone="9087467653"},
             new ContactInfo {ID=114, Email="Markantony@qqq.com", Phone="9870098761"}
         };
+
+        static void Main(string[] args)
+        {
+            Program pg = new Program();            
+        }
     }
 }
