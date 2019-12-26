@@ -162,7 +162,11 @@ namespace CSharpExamplesOnLinq
 
             Console.WriteLine("Query : Select range_variable");
             Console.WriteLine("Name    : ID");
-
+            foreach (Student s in studentQuery1)
+            {
+                Console.WriteLine(s.ToString());
+            }
+            Console.ReadLine();
         }
     }
 }
