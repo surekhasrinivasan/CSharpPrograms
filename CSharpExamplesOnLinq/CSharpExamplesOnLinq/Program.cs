@@ -109,6 +109,11 @@ namespace CSharpExamplesOnLinq
 
                 return allinfo;
             }
+
+            public override string ToString()
+            {
+                return First + "" + Last + " :  " + ID;
+            }
         }
 
 
