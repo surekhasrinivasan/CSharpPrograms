@@ -153,7 +153,16 @@ namespace CSharpExamplesOnLinq
 
         static void Main(string[] args)
         {
-            Program pg = new Program();            
+            Program pg = new Program();
+
+            IEnumerable<Student> studentQuery1 =
+            from student in pg.students
+            where student.ID > 1
+            select student;
+
+            Console.WriteLine("Query : Select range_variable");
+            Console.WriteLine("Name    : ID");
+
         }
     }
 }
