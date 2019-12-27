@@ -176,6 +176,12 @@ namespace CSharpExamplesOnLinq
         static void Main()
         {
             int[] numbers = { 500, 344, 221, 4443, 229, 1008, 6000, 767, 256, 0 };
+
+            var greaterNums =
+            from num in numbers
+            where num > 500
+            select num;
+            
         }
     }
 }
