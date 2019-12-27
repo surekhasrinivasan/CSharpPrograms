@@ -181,7 +181,12 @@ namespace CSharpExamplesOnLinq
             from num in numbers
             where num > 500
             select num;
-            
+            Console.WriteLine("Numbers Greater than 500 :");
+            foreach (var s in greaterNums)
+            {
+                Console.Write(s.ToString() + " ");
+            }
+            Console.Read();
         }
     }
 }
