@@ -200,6 +200,13 @@ namespace CSharpExamplesOnLinq
             var program = from num in numbers
                           where num < 50
                           select num;
+
+            Console.WriteLine("Numbers less than 50 are :");
+            foreach (int i in program)
+            {
+                Console.Write(i + " ");
+            }
+            Console.ReadLine();
         }
     }
 }
