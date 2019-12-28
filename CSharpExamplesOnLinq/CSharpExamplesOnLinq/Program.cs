@@ -193,6 +193,9 @@ namespace CSharpExamplesOnLinq
     // Program to Display the Smallest numbers in an Array using FROM Clause Linq
     class Program
     {
-
+        static void Main()
+        {
+            int[] numbers = { 50, 30, 45, 10, 60, 100, 500, 300, 40, 22, 44, 55, 66, 1000 };
+        }
     }
 }
