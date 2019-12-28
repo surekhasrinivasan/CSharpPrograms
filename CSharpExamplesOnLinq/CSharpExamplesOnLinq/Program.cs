@@ -196,6 +196,10 @@ namespace CSharpExamplesOnLinq
         static void Main()
         {
             int[] numbers = { 50, 30, 45, 10, 60, 100, 500, 300, 40, 22, 44, 55, 66, 1000 };
+
+            var program = from num in numbers
+                          where num < 50
+                          select num;
         }
     }
 }
