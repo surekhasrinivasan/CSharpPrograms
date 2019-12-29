@@ -215,4 +215,11 @@ namespace CSharpExamplesOnLinq
     {
 
     }
+
+    class Student
+    {
+        public string Name { get; set; }
+        public string Regnum { get; set; }
+        public int Marks { get; set; }
+    }
 }
