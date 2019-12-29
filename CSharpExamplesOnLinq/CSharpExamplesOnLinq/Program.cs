@@ -222,7 +222,19 @@ namespace CSharpExamplesOnLinq
                 new Student{ Name="Syed",Regnum="R004",Marks=30},
                 new Student{ Name="Mob",Regnum="R005",Marks=70},
             };
-        }
+
+            var objresult = from stu in objStudent
+                            let totalMarks = objStudent.Sum(mark => mark.Marks)
+                            let avgMarks = totalMarks / 5
+                            where avgMarks > stu.Marks
+                            select stu;
+            foreach (var stu in objresult)
+            {
+                Console.WriteLine("Student: {0} {1}", stu.Name, stu.Regnum);
+
+            }
+            Console.ReadLine();
+        }    
     }
 
     class Student
