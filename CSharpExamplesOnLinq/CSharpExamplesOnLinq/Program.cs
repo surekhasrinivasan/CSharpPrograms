@@ -213,7 +213,16 @@ namespace CSharpExamplesOnLinq
     // Program to Implement Let Condition using Linq
     class Program
     {
-
+        static void Main()
+        {
+            List<Student> objStudent = new List<Student>{
+                new Student{ Name="Tom",Regnum="R001",Marks=80},
+                new Student{ Name="Bob",Regnum="R002",Marks=40},
+                new Student{ Name="jerry",Regnum="R003",Marks=25},
+                new Student{ Name="Syed",Regnum="R004",Marks=30},
+                new Student{ Name="Mob",Regnum="R005",Marks=70},
+            };
+        }
     }
 
     class Student
