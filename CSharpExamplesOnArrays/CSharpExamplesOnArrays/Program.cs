@@ -9,6 +9,8 @@ namespace CSharpExamplesOnArrays
     // Program to Convert a 2D Array into 1D Array
     class Program
     {
-        
+        int m, n;
+        int[,] a;
+        int[] b;
     }
 }
