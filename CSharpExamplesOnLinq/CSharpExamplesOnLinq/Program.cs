@@ -223,7 +223,12 @@ namespace CSharpExamplesOnLinq
                 new Student{ Name="Mob",Regnum="R005",Marks=70},
             };
 
-            var objresult = from stu in objStudent
+            // The let clause allows storing the result of an expression inside the query expression. 
+            // The where clause is used in a query expression to specify which elements from the 
+            // data source will be returned in the query expression.The foreach () function 
+            // is used to print only the average marks greater than student marks.
+
+                        var objresult = from stu in objStudent
                             let totalMarks = objStudent.Sum(mark => mark.Marks)
                             let avgMarks = totalMarks / 5
                             where avgMarks > stu.Marks
