@@ -12,5 +12,13 @@ namespace CSharpExamplesOnArrays
         int m, n;
         int[,] a;
         int[] b;
+
+        Program(int x, int y)
+        {
+            m = x;
+            n = y;
+            a = new int[m, n];
+            b = new int[m * n];
+        }
     }
 }
