@@ -33,5 +33,18 @@ namespace CSharpExamplesOnArrays
             }
         }
 
+        public void printd()
+        {
+            for (int i = 0; i < m; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    Console.Write("{0}\t", a[i, j]);
+
+                }
+                Console.Write("\n");
+            }
+        }
+
     }
 }
