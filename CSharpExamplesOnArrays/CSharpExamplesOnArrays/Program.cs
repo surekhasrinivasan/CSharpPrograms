@@ -20,5 +20,18 @@ namespace CSharpExamplesOnArrays
             a = new int[m, n];
             b = new int[m * n];
         }
+
+        public void readmatrix()
+        {
+            for (int i = 0; i < m; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    Console.WriteLine("a[{0},{1}]=", i, j);
+                    a[i, j] = Convert.ToInt32(Console.ReadLine());
+                }
+            }
+        }
+
     }
 }
