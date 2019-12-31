@@ -58,5 +58,13 @@ namespace CSharpExamplesOnArrays
             }
         }
 
+        public void printoned()
+        {
+            for (int i = 0; i < m * n; i++)
+            {
+                Console.WriteLine("{0}\t", b[i]);
+            }
+        }
+
     }
 }
