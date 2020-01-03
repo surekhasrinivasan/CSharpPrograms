@@ -66,5 +66,10 @@ namespace CSharpExamplesOnArrays
             }
         }
 
+        public static void Main()
+        {
+            Program obj = new Program(2, 3);
+        }
+
     }
 }
