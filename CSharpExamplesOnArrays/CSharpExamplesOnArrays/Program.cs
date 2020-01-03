@@ -89,7 +89,10 @@ namespace CSharpExamplesOnArrays
     // Program to get the length of the Array
     class Program
     {
-
+        static void Main()
+        {
+            int[] arrayA = new int[5];
+        }
     }
 }
 
