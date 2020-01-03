@@ -66,6 +66,11 @@ namespace CSharpExamplesOnArrays
             }
         }
 
+        // In this program we read the elements of the 2-Dimensional matrix. 
+        // Using for loop assign the value of ‘a[i,j]’ variable to b[] 
+        // array variable. Increment the value of base index ‘k’ variable. 
+        // Print the value of one dimensional array.
+
         public static void Main()
         {
             Program obj = new Program(2, 3);
@@ -76,6 +81,7 @@ namespace CSharpExamplesOnArrays
             obj.convert();
             Console.WriteLine("\t\t Converted 1-D Array is :");
             obj.printoned();
+
             Console.ReadLine();
         }
     }
