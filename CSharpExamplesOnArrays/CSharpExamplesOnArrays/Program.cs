@@ -69,7 +69,12 @@ namespace CSharpExamplesOnArrays
         public static void Main()
         {
             Program obj = new Program(2, 3);
+            Console.WriteLine("Enter the Elements : ");
+            obj.readmatrix();
+            Console.WriteLine("\t\t Given 2-D Array(Matrix) is : ");
+            obj.printd();
         }
 
     }
 }
+
