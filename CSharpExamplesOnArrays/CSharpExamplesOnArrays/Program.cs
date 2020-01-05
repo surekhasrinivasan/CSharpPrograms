@@ -86,22 +86,28 @@ namespace CSharpExamplesOnArrays
     //    }
     //}
 
-    // Program to get the length of the Array
+    //// Program to get the length of the Array
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        int[] arrayA = new int[5];
+    //        int lengthA = arrayA.Length;
+    //        Console.WriteLine("Length of ArrayA : {0}", lengthA);
+
+    //        long longLength = arrayA.LongLength;
+    //        Console.WriteLine("Length of the LongLength Array : {0}", longLength);
+
+    //        int[,] twoD = new int[5, 10];
+    //        Console.WriteLine("The Size of 2D Array is : {0}", twoD.Length);
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Get Lower Bound and Upper Bound of an Array
     class Program
     {
-        static void Main()
-        {
-            int[] arrayA = new int[5];
-            int lengthA = arrayA.Length;
-            Console.WriteLine("Length of ArrayA : {0}", lengthA);
 
-            long longLength = arrayA.LongLength;
-            Console.WriteLine("Length of the LongLength Array : {0}", longLength);
-
-            int[,] twoD = new int[5, 10];
-            Console.WriteLine("The Size of 2D Array is : {0}", twoD.Length);
-            Console.ReadLine();
-        }
     }
 }
 
