@@ -110,6 +110,13 @@ namespace CSharpExamplesOnArrays
         static void Main()
         {
             Array stringArray = Array.CreateInstance(typeof(String), 6);
+            stringArray.SetValue("Mango", 0);
+            stringArray.SetValue("Orange", 1);
+            stringArray.SetValue("Apple", 2);
+            stringArray.SetValue("Grape", 3);
+            stringArray.SetValue("Cherry", 4);
+            stringArray.SetValue("Watermelon", 5);
+
         }
     }
 }
