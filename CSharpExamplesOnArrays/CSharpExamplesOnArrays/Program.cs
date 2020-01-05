@@ -107,7 +107,10 @@ namespace CSharpExamplesOnArrays
     // Program to Get Lower Bound and Upper Bound of an Array
     class Program
     {
-
+        static void Main()
+        {
+            Array stringArray = Array.CreateInstance(typeof(String), 6);
+        }
     }
 }
 
