@@ -131,7 +131,12 @@ namespace CSharpExamplesOnArrays
         static void Main()
         {
             int[] arr = new int[5] { 1, 2, 3, 4, 5 };
-            int[,] arr2 = new int[10, 3]; 
+            int[,] arr2 = new int[10, 3];
+            
+            // Function rank denotes the dimensions of the array 
+            Console.WriteLine("Total dimensions of array is : " + arr.Rank);
+            Console.WriteLine("Total dimensions of array is : " + arr2.Rank);
+            Console.ReadLine();
         }
     }
 }
