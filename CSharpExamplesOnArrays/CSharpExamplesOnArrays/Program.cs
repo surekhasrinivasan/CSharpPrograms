@@ -131,6 +131,7 @@ namespace CSharpExamplesOnArrays
         static void Main()
         {
             int[] arr = new int[5] { 1, 2, 3, 4, 5 };
+            int[,] arr2 = new int[10, 3]; 
         }
     }
 }
