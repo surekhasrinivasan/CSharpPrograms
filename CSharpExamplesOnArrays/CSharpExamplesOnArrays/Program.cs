@@ -146,6 +146,11 @@ namespace CSharpExamplesOnArrays
         static void Main()
         {
             int[][] jag = new int[3][];
+            jag[0] = new int[2];
+            jag[0][0] = 11;
+            jag[0][1] = 12;
+            jag[1] = new int[1] { 11 };
+            jag[2] = new int[3] { 14, 15, 16 };
         }
     }
 }
