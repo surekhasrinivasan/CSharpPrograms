@@ -143,7 +143,10 @@ namespace CSharpExamplesOnArrays
     // Program to Demonstrate Jagged Arrays
     class Program
     {
-
+        static void Main()
+        {
+            int[][] jag = new int[3][];
+        }
     }
 }
 
