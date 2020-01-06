@@ -128,7 +128,10 @@ namespace CSharpExamplesOnArrays
     // Program to Find the Rank of a given Array
     class Program
     {
-
+        static void Main()
+        {
+            int[] arr = new int[5] { 1, 2, 3, 4, 5 };
+        }
     }
 }
 
