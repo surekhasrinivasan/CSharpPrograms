@@ -166,7 +166,12 @@ namespace CSharpExamplesOnArrays
     // Program to Get 2 Arrays as Input and Produce a 3rd Array by Appending one to other
     class Program
     {
+        static void Main()
+        {
+            int[] arr1 = new int[5];
+            int[] arr2 = new int[5];
 
+        }
     }
 }
 
