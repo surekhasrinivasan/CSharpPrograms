@@ -170,6 +170,13 @@ namespace CSharpExamplesOnArrays
         {
             int[] arr1 = new int[5];
             int[] arr2 = new int[5];
+            int[] arr3 = new int[arr1.Length + arr2.Length];
+
+            Console.WriteLine("Enter any 5 elements for the First Array : ");
+            for(int i = 0; i < 5; i++)
+            {
+                arr1[i] = int.Parse(Console.ReadLine());
+            }
 
         }
     }
