@@ -178,6 +178,12 @@ namespace CSharpExamplesOnArrays
                 arr1[i] = int.Parse(Console.ReadLine());
             }
 
+            Console.WriteLine("Enter any 5 elements for the Second Array : ");
+            for (int i = 0; i < 5; i++)
+            {
+                arr2[i] = int.Parse(Console.ReadLine());
+            }
+
         }
     }
 }
