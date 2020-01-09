@@ -186,6 +186,12 @@ namespace CSharpExamplesOnArrays
             Buffer.BlockCopy(arr1, 0, arr3, 0, arr1.Length * sizeof(int));
             Buffer.BlockCopy(arr2, 0, arr3, arr1.Length * sizeof(int), arr2.Length * sizeof(int));
 
+            Console.WriteLine("Elements in the Third array after appending" + " First and Second Arrays : ");
+            foreach(int value in arr3)
+            {
+                Console.WriteLine(value);
+            }
+            Console.ReadLine();
         }
     }
 }
