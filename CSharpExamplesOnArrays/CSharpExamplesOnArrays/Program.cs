@@ -183,6 +183,11 @@ namespace CSharpExamplesOnArrays
             {
                 arr2[i] = int.Parse(Console.ReadLine());
             }
+
+            // Buffer.BlockCopy() function is used to merge two int arrays. 
+            // This method acts upon bytes, not elements. Using foreach loop print 
+            // the elements in third array after appending with first and second arrays.
+
             Buffer.BlockCopy(arr1, 0, arr3, 0, arr1.Length * sizeof(int));
             Buffer.BlockCopy(arr2, 0, arr3, arr1.Length * sizeof(int), arr2.Length * sizeof(int));
 
