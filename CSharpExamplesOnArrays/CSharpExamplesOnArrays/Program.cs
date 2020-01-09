@@ -203,7 +203,10 @@ namespace CSharpExamplesOnArrays
     // Program to Search an element with Array Indices
     class Program
     {
-
+        public static void Main()
+        {
+            int[] integers = { 0, 10, 100, 1000, 100000 };
+        }
     }
 }
 
