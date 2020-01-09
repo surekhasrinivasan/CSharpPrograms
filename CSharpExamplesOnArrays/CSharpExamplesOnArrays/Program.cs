@@ -183,7 +183,7 @@ namespace CSharpExamplesOnArrays
             {
                 arr2[i] = int.Parse(Console.ReadLine());
             }
-
+            Buffer.BlockCopy(arr1, 0, arr3, 0, arr1.Length * sizeof(int));
         }
     }
 }
