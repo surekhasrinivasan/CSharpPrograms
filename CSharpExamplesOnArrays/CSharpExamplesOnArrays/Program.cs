@@ -163,41 +163,47 @@ namespace CSharpExamplesOnArrays
     //    }
     //}
 
-    // Program to Get 2 Arrays as Input and Produce a 3rd Array by Appending one to other
+    //// Program to Get 2 Arrays as Input and Produce a 3rd Array by Appending one to other
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        int[] arr1 = new int[5];
+    //        int[] arr2 = new int[5];
+    //        int[] arr3 = new int[arr1.Length + arr2.Length];
+
+    //        Console.WriteLine("Enter any 5 elements for the First Array : ");
+    //        for(int i = 0; i < 5; i++)
+    //        {
+    //            arr1[i] = int.Parse(Console.ReadLine());
+    //        }
+
+    //        Console.WriteLine("Enter any 5 elements for the Second Array : ");
+    //        for (int i = 0; i < 5; i++)
+    //        {
+    //            arr2[i] = int.Parse(Console.ReadLine());
+    //        }
+
+    //        // Buffer.BlockCopy() function is used to merge two int arrays. 
+    //        // This method acts upon bytes, not elements. Using foreach loop print 
+    //        // the elements in third array after appending with first and second arrays.
+
+    //        Buffer.BlockCopy(arr1, 0, arr3, 0, arr1.Length * sizeof(int));
+    //        Buffer.BlockCopy(arr2, 0, arr3, arr1.Length * sizeof(int), arr2.Length * sizeof(int));
+
+    //        Console.WriteLine("Elements in the Third array after appending" + " First and Second Arrays : ");
+    //        foreach(int value in arr3)
+    //        {
+    //            Console.WriteLine(value);
+    //        }
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Search an element with Array Indices
     class Program
     {
-        static void Main()
-        {
-            int[] arr1 = new int[5];
-            int[] arr2 = new int[5];
-            int[] arr3 = new int[arr1.Length + arr2.Length];
 
-            Console.WriteLine("Enter any 5 elements for the First Array : ");
-            for(int i = 0; i < 5; i++)
-            {
-                arr1[i] = int.Parse(Console.ReadLine());
-            }
-
-            Console.WriteLine("Enter any 5 elements for the Second Array : ");
-            for (int i = 0; i < 5; i++)
-            {
-                arr2[i] = int.Parse(Console.ReadLine());
-            }
-
-            // Buffer.BlockCopy() function is used to merge two int arrays. 
-            // This method acts upon bytes, not elements. Using foreach loop print 
-            // the elements in third array after appending with first and second arrays.
-
-            Buffer.BlockCopy(arr1, 0, arr3, 0, arr1.Length * sizeof(int));
-            Buffer.BlockCopy(arr2, 0, arr3, arr1.Length * sizeof(int), arr2.Length * sizeof(int));
-
-            Console.WriteLine("Elements in the Third array after appending" + " First and Second Arrays : ");
-            foreach(int value in arr3)
-            {
-                Console.WriteLine(value);
-            }
-            Console.ReadLine();
-        }
     }
 }
 
