@@ -213,6 +213,11 @@ namespace CSharpExamplesOnArrays
             }
             Console.WriteLine();
         }
+
+        public static void FindObject(Array arr, Object obj)
+        {
+
+        }
     }
 }
 
