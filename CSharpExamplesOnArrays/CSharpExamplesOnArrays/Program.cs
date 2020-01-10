@@ -206,6 +206,12 @@ namespace CSharpExamplesOnArrays
         public static void Main()
         {
             int[] integers = { 0, 10, 100, 1000, 100000 };
+            Console.WriteLine("Array indices and elements: ");
+            for(int i = 0; i < integers.Length; i++)
+            {
+                Console.Write("[{0}]={1, -5}", i, integers[i]);
+            }
+            Console.WriteLine();
         }
     }
 }
