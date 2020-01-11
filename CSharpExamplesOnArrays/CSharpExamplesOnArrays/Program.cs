@@ -217,7 +217,12 @@ namespace CSharpExamplesOnArrays
         public static void FindObject(Array arr, Object obj)
         {
             int index = Array.BinarySearch(arr, 0, arr.Length, obj);
-
+            Console.WriteLine();
+            if(index > 0)
+            {
+                Console.WriteLine("Object: {0} found at [{1}]", obj, index);
+            }
+            
         }
     }
 }
