@@ -212,6 +212,10 @@ namespace CSharpExamplesOnArrays
                 Console.Write("[{0}]={1, -5}", i, integers[i]);
             }
             Console.WriteLine();
+            FindObject(integers, 25);
+            FindObject(integers, 1000);
+            FindObject(integers, 2000000);
+            Console.ReadLine();
         }
 
         public static void FindObject(Array arr, Object obj)
