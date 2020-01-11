@@ -216,6 +216,7 @@ namespace CSharpExamplesOnArrays
 
         public static void FindObject(Array arr, Object obj)
         {
+            int index = Array.BinarySearch(arr, 0, arr.Length, obj);
 
         }
     }
