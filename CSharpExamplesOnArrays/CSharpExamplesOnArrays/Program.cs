@@ -222,7 +222,17 @@ namespace CSharpExamplesOnArrays
             {
                 Console.WriteLine("Object: {0} found at [{1}]", obj, index);
             }
-            
+            else if(~index == arr.Length)
+            {
+                Console.WriteLine("Object: {0} not found. " + 
+                    "No array object has a greater value.", obj);
+                Console.WriteLine();
+            }
+            else
+            {
+                Console.WriteLine("Object: {0} not found. " +
+                    "Next larger object found at [{1}].", obj, ~index);
+            }
         }
     }
 }
