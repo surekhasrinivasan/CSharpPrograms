@@ -284,7 +284,7 @@ namespace CSharpExamplesOnArrays
         public static void Main()
         {
             int[] arr = { 10, -10, -20, 0, 15, 20, 30 };
-
+            Console.WriteLine("Maximum Element : " + arr.Max());
         }
     }
 }
