@@ -281,7 +281,11 @@ namespace CSharpExamplesOnArrays
     // Program to Find Minimum and Maximum of Numbers
     class Program
     {
+        public static void Main()
+        {
+            int[] arr = { 10, -10, -20, 0, 15, 20, 30 };
 
+        }
     }
 }
 
