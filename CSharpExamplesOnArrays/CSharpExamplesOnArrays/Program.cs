@@ -200,44 +200,50 @@ namespace CSharpExamplesOnArrays
     //    }
     //}
 
-    // Program to Search an element with Array Indices
+    //// Program to Search an element with Array Indices
+    //class Program
+    //{
+    //    public static void Main()
+    //    {
+    //        int[] integers = { 0, 10, 100, 1000, 100000 };
+    //        Console.WriteLine("Array indices and elements: ");
+    //        for(int i = 0; i < integers.Length; i++)
+    //        {
+    //            Console.Write("[{0}]={1, -5}", i, integers[i]);
+    //        }
+    //        Console.WriteLine();
+    //        FindObject(integers, 25);
+    //        FindObject(integers, 1000);
+    //        FindObject(integers, 2000000);
+    //        Console.ReadLine();
+    //    }
+
+    //    public static void FindObject(Array arr, Object obj)
+    //    {
+    //        int index = Array.BinarySearch(arr, 0, arr.Length, obj);
+    //        Console.WriteLine();
+    //        if(index > 0)
+    //        {
+    //            Console.WriteLine("Object: {0} found at [{1}]", obj, index);
+    //        }
+    //        else if(~index == arr.Length)
+    //        {
+    //            Console.WriteLine("Object: {0} not found. " + 
+    //                "No array object has a greater value.", obj);
+    //            Console.WriteLine();
+    //        }
+    //        else
+    //        {
+    //            Console.WriteLine("Object: {0} not found. " +
+    //                "Next larger object found at [{1}].", obj, ~index);
+    //        }
+    //    }
+    //}
+
+    // Program to implement use of Indexers
     class Program
     {
-        public static void Main()
-        {
-            int[] integers = { 0, 10, 100, 1000, 100000 };
-            Console.WriteLine("Array indices and elements: ");
-            for(int i = 0; i < integers.Length; i++)
-            {
-                Console.Write("[{0}]={1, -5}", i, integers[i]);
-            }
-            Console.WriteLine();
-            FindObject(integers, 25);
-            FindObject(integers, 1000);
-            FindObject(integers, 2000000);
-            Console.ReadLine();
-        }
 
-        public static void FindObject(Array arr, Object obj)
-        {
-            int index = Array.BinarySearch(arr, 0, arr.Length, obj);
-            Console.WriteLine();
-            if(index > 0)
-            {
-                Console.WriteLine("Object: {0} found at [{1}]", obj, index);
-            }
-            else if(~index == arr.Length)
-            {
-                Console.WriteLine("Object: {0} not found. " + 
-                    "No array object has a greater value.", obj);
-                Console.WriteLine();
-            }
-            else
-            {
-                Console.WriteLine("Object: {0} not found. " +
-                    "Next larger object found at [{1}].", obj, ~index);
-            }
-        }
     }
 }
 
