@@ -278,16 +278,22 @@ namespace CSharpExamplesOnArrays
     //    }
     //}
 
-    // Program to Find Minimum and Maximum of Numbers
+    //// Program to Find Minimum and Maximum of Numbers
+    //class Program
+    //{
+    //    public static void Main()
+    //    {
+    //        int[] arr = { 10, -10, -20, 0, 15, 20, 30 };
+    //        Console.WriteLine("Maximum Element : " + arr.Max());
+    //        Console.WriteLine("Minimum Element : " + arr.Min());
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to Copy a Section of One Array to Another
     class Program
     {
-        public static void Main()
-        {
-            int[] arr = { 10, -10, -20, 0, 15, 20, 30 };
-            Console.WriteLine("Maximum Element : " + arr.Max());
-            Console.WriteLine("Minimum Element : " + arr.Min());
-            Console.Read();
-        }
+
     }
 }
 
