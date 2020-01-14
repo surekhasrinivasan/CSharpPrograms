@@ -293,7 +293,12 @@ namespace CSharpExamplesOnArrays
     // Program to Copy a Section of One Array to Another
     class Program
     {
-
+        public static void Main()
+        {
+            int n, m, size;
+            Console.WriteLine("Enter the size of the Array :");
+            n = Convert.ToInt32(Console.ReadLine());
+        }
     }
 }
 
