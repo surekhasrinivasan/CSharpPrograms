@@ -312,6 +312,13 @@ namespace CSharpExamplesOnArrays
                                 "that has to be Copied : ");
             size = Convert.ToInt32(Console.ReadLine());
             Array.Copy(arr, 0, target, 0, size);
+            Console.WriteLine("New Array with the specified section of Elements " +
+                                " in the First Array");
+            foreach(int value in target)
+            {
+                Console.WriteLine(value);
+            }
+            Console.Read();
         }
     }
 }
