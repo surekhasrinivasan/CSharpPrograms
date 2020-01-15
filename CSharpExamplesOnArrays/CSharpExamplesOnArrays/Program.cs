@@ -304,6 +304,9 @@ namespace CSharpExamplesOnArrays
             {
                 arr[i] = Convert.ToInt32(Console.ReadLine());
             }
+
+            Console.WriteLine("Enter the Size of the Target Array : ");
+            m = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
