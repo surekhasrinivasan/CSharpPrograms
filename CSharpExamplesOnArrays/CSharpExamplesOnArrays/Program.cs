@@ -308,6 +308,10 @@ namespace CSharpExamplesOnArrays
             Console.WriteLine("Enter the Size of the Target Array : ");
             m = Convert.ToInt32(Console.ReadLine());
             int[] target = new int[m];
+            Console.WriteLine("Enter the section of the First Array " +
+                                "that has to be Copied : ");
+            size = Convert.ToInt32(Console.ReadLine());
+            Array.Copy(arr, 0, target, 0, size);
         }
     }
 }
