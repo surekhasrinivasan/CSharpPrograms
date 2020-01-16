@@ -328,6 +328,12 @@ namespace CSharpExamplesOnArrays
         static void Main()
         {
             List<string> names = new List<string>();
+            names.Add("Ram");
+            names.Add("Rose");
+            names.Add("Sita");
+            names.Add("Abs");
+            names.Add("Edward");
+
         }
     }
 }
