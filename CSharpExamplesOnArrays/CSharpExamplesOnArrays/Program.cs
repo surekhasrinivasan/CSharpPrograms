@@ -333,7 +333,12 @@ namespace CSharpExamplesOnArrays
             names.Add("Sita");
             names.Add("Abs");
             names.Add("Edward");
-
+            names.Sort();
+            foreach(string str in names)
+            {
+                Console.WriteLine(str);
+            }
+            Console.ReadLine();
         }
     }
 }
