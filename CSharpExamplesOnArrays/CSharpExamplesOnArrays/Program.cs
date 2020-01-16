@@ -325,7 +325,10 @@ namespace CSharpExamplesOnArrays
     // Program to Sort a List of Names in Alphabetical Order
     class Program
     {
-
+        static void Main()
+        {
+            List<string> names = new List<string>();
+        }
     }
 }
 
