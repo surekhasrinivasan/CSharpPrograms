@@ -342,20 +342,26 @@ namespace CSharpExamplesOnArrays
     //    }
     //}
 
-    // Program to Search an Element in an Array
+    //// Program to Search an Element in an Array
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        string[] arr = { "cat", "dogs", "donkey", "camel" };
+    //        string v1 = Array.Find(arr,
+    //            element => element.StartsWith("cam", StringComparison.Ordinal));
+    //        string v2 = Array.Find(arr,
+    //            element => element.Length == 3);
+    //        Console.WriteLine("The Element that starts with 'Cam' is : " + v1);
+    //        Console.WriteLine("3 Letter word in the Array is: " + v2);
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Reverse an Array
     class Program
     {
-        static void Main()
-        {
-            string[] arr = { "cat", "dogs", "donkey", "camel" };
-            string v1 = Array.Find(arr,
-                element => element.StartsWith("cam", StringComparison.Ordinal));
-            string v2 = Array.Find(arr,
-                element => element.Length == 3);
-            Console.WriteLine("The Element that starts with 'Cam' is : " + v1);
-            Console.WriteLine("3 Letter word in the Array is: " + v2);
-            Console.ReadLine();
-        }
+
     }
 }
 
