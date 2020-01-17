@@ -348,6 +348,11 @@ namespace CSharpExamplesOnArrays
         static void Main()
         {
             string[] arr = { "cat", "dogs", "donkey", "camel" };
+            string v1 = Array.Find(arr,
+                element => element.StartsWith("cam", StringComparison.Ordinal));
+            string v2 = Array.Find(arr,
+                element => element.Length == 3);
+
         }
     }
 }
