@@ -345,7 +345,10 @@ namespace CSharpExamplesOnArrays
     // Program to Search an Element in an Array
     class Program
     {
-
+        static void Main()
+        {
+            string[] arr = { "cat", "dogs", "donkey", "camel" };
+        }
     }
 }
 
