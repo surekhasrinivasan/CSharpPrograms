@@ -322,24 +322,30 @@ namespace CSharpExamplesOnArrays
     //    }
     //}
 
-    // Program to Sort a List of Names in Alphabetical Order
+    //// Program to Sort a List of Names in Alphabetical Order
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        List<string> names = new List<string>();
+    //        names.Add("Ram");
+    //        names.Add("Rose");
+    //        names.Add("Sita");
+    //        names.Add("Abs");
+    //        names.Add("Edward");
+    //        names.Sort();
+    //        foreach(string str in names)
+    //        {
+    //            Console.WriteLine(str);
+    //        }
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Search an Element in an Array
     class Program
     {
-        static void Main()
-        {
-            List<string> names = new List<string>();
-            names.Add("Ram");
-            names.Add("Rose");
-            names.Add("Sita");
-            names.Add("Abs");
-            names.Add("Edward");
-            names.Sort();
-            foreach(string str in names)
-            {
-                Console.WriteLine(str);
-            }
-            Console.ReadLine();
-        }
+
     }
 }
 
