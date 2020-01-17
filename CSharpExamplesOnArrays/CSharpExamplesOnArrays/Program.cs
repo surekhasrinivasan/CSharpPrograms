@@ -368,7 +368,13 @@ namespace CSharpExamplesOnArrays
             {
                 Console.WriteLine(num);
             }
-
+            Array.Reverse(array);
+            Console.WriteLine("Reveresed Array: ");
+            foreach(int value in array)
+            {
+                Console.WriteLine(value);
+            }
+            Console.ReadLine();
         }
     }
 }
