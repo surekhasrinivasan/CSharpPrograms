@@ -358,24 +358,30 @@ namespace CSharpExamplesOnArrays
     //    }
     //}
 
-    // Program to Reverse an Array
+    //// Program to Reverse an Array
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+    //        foreach(int num in array)
+    //        {
+    //            Console.WriteLine(num);
+    //        }
+    //        Array.Reverse(array);
+    //        Console.WriteLine("Reveresed Array: ");
+    //        foreach(int value in array)
+    //        {
+    //            Console.WriteLine(value);
+    //        }
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Negate the Positive Elements of Array
     class Program
     {
-        static void Main()
-        {
-            int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            foreach(int num in array)
-            {
-                Console.WriteLine(num);
-            }
-            Array.Reverse(array);
-            Console.WriteLine("Reveresed Array: ");
-            foreach(int value in array)
-            {
-                Console.WriteLine(value);
-            }
-            Console.ReadLine();
-        }
+
     }
 }
 
