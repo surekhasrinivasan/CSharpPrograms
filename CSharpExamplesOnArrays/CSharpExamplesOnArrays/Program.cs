@@ -381,7 +381,10 @@ namespace CSharpExamplesOnArrays
     // Program to Negate the Positive Elements of Array
     class Program
     {
-
+        public static void Main()
+        {
+            int[] arr = new int[10];
+        }
     }
 }
 
