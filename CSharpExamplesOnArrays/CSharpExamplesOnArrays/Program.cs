@@ -391,6 +391,12 @@ namespace CSharpExamplesOnArrays
                 if (arr[i] > 0)
                     arr[i] = -arr[i];
             }
+            Console.WriteLine("Elements : ");
+            for(int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+            Console.ReadLine();
         }
     }
 }
