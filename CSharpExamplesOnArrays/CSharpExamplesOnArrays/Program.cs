@@ -384,6 +384,13 @@ namespace CSharpExamplesOnArrays
         public static void Main()
         {
             int[] arr = new int[10];
+            Console.WriteLine("Enter 5 Elements : ");
+            for(int i = 0; i < 5; i++)
+            {
+                arr[i] = Convert.ToInt32(Console.ReadLine());
+                if (arr[i] > 0)
+                    arr[i] = -arr[i];
+            }
         }
     }
 }
