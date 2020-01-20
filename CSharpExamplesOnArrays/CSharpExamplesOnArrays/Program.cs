@@ -418,6 +418,11 @@ namespace CSharpExamplesOnArrays
             }
             int len = arr.Length;
         }
+
+        public void sumAverageElements(int[] arr, int size)
+        {
+
+        }
     }
 }
 
