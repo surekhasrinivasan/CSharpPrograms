@@ -416,6 +416,7 @@ namespace CSharpExamplesOnArrays
             {
                 arr[i] = Convert.ToInt32(Console.ReadLine());
             }
+            int len = arr.Length;
         }
     }
 }
