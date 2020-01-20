@@ -403,7 +403,12 @@ namespace CSharpExamplesOnArrays
     // Program to Find the Average Values of all the Array Elements
     class Program
     {
-
+        public static void Main()
+        {
+            int size;
+            Console.WriteLine("Enter the Size : ");
+            size = Convert.ToInt32(Console.ReadLine());
+        }
     }
 }
 
