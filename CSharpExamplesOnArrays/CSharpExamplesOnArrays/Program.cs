@@ -417,6 +417,8 @@ namespace CSharpExamplesOnArrays
                 arr[i] = Convert.ToInt32(Console.ReadLine());
             }
             int len = arr.Length;
+            Program pg = new Program();
+            pg.sumAverageElements(arr, len);
         }
 
         public void sumAverageElements(int[] arr, int size)
