@@ -421,7 +421,16 @@ namespace CSharpExamplesOnArrays
 
         public void sumAverageElements(int[] arr, int size)
         {
-
+            int sum = 0;
+            int average = 0; 
+            for(int i = 0; i < size; i++)
+            {
+                sum += arr[i];
+            }
+            average = sum / size;
+            Console.WriteLine("Sum of all the Array elements is : " + sum);
+            Console.WriteLine("Average of all the Array elements is: " +average);
+            Console.ReadLine();
         }
     }
 }
