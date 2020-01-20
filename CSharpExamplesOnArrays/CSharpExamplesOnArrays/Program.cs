@@ -410,6 +410,12 @@ namespace CSharpExamplesOnArrays
             size = Convert.ToInt32(Console.ReadLine());
 
             int[] arr = new int[size];
+
+            Console.WriteLine("Enter the elements of the array : ");
+            for(int i = 0; i < size; i++)
+            {
+                arr[i] = Convert.ToInt32(Console.ReadLine());
+            }
         }
     }
 }
