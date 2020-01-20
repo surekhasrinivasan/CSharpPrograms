@@ -378,26 +378,32 @@ namespace CSharpExamplesOnArrays
     //    }
     //}
 
-    // Program to Negate the Positive Elements of Array
+    //// Program to Negate the Positive Elements of Array
+    //class Program
+    //{
+    //    public static void Main()
+    //    {
+    //        int[] arr = new int[10];
+    //        Console.WriteLine("Enter 5 Elements : ");
+    //        for(int i = 0; i < 5; i++)
+    //        {
+    //            arr[i] = Convert.ToInt32(Console.ReadLine());
+    //            if (arr[i] > 0)
+    //                arr[i] = -arr[i];
+    //        }
+    //        Console.WriteLine("Elements : ");
+    //        for(int i = 0; i < 5; i++)
+    //        {
+    //            Console.WriteLine(arr[i]);
+    //        }
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Find the Average Values of all the Array Elements
     class Program
     {
-        public static void Main()
-        {
-            int[] arr = new int[10];
-            Console.WriteLine("Enter 5 Elements : ");
-            for(int i = 0; i < 5; i++)
-            {
-                arr[i] = Convert.ToInt32(Console.ReadLine());
-                if (arr[i] > 0)
-                    arr[i] = -arr[i];
-            }
-            Console.WriteLine("Elements : ");
-            for(int i = 0; i < 5; i++)
-            {
-                Console.WriteLine(arr[i]);
-            }
-            Console.ReadLine();
-        }
+
     }
 }
 
