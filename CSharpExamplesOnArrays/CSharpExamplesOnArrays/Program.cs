@@ -400,40 +400,46 @@ namespace CSharpExamplesOnArrays
     //    }
     //}
 
-    // Program to Find the Average Values of all the Array Elements
+    //// Program to Find the Average Values of all the Array Elements
+    //class Program
+    //{
+    //    public static void Main()
+    //    {
+    //        int size;
+    //        Console.WriteLine("Enter the Size : ");
+    //        size = Convert.ToInt32(Console.ReadLine());
+
+    //        int[] arr = new int[size];
+
+    //        Console.WriteLine("Enter the elements of the array : ");
+    //        for(int i = 0; i < size; i++)
+    //        {
+    //            arr[i] = Convert.ToInt32(Console.ReadLine());
+    //        }
+    //        int len = arr.Length;
+    //        Program pg = new Program();
+    //        pg.sumAverageElements(arr, len);
+    //    }
+
+    //    public void sumAverageElements(int[] arr, int size)
+    //    {
+    //        int sum = 0;
+    //        int average = 0; 
+    //        for(int i = 0; i < size; i++)
+    //        {
+    //            sum += arr[i];
+    //        }
+    //        average = sum / size;
+    //        Console.WriteLine("Sum of all the Array elements is : " + sum);
+    //        Console.WriteLine("Average of all the Array elements is: " +average);
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Find the Length of the Jagged Array using Predefined Functions
     class Program
     {
-        public static void Main()
-        {
-            int size;
-            Console.WriteLine("Enter the Size : ");
-            size = Convert.ToInt32(Console.ReadLine());
 
-            int[] arr = new int[size];
-
-            Console.WriteLine("Enter the elements of the array : ");
-            for(int i = 0; i < size; i++)
-            {
-                arr[i] = Convert.ToInt32(Console.ReadLine());
-            }
-            int len = arr.Length;
-            Program pg = new Program();
-            pg.sumAverageElements(arr, len);
-        }
-
-        public void sumAverageElements(int[] arr, int size)
-        {
-            int sum = 0;
-            int average = 0; 
-            for(int i = 0; i < size; i++)
-            {
-                sum += arr[i];
-            }
-            average = sum / size;
-            Console.WriteLine("Sum of all the Array elements is : " + sum);
-            Console.WriteLine("Average of all the Array elements is: " +average);
-            Console.ReadLine();
-        }
     }
 }
 
