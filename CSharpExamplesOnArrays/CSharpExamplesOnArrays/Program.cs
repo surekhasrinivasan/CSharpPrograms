@@ -439,6 +439,10 @@ namespace CSharpExamplesOnArrays
     // Program to Find the Length of the Jagged Array using Predefined Functions
     class Program
     {
+        static void Main()
+        {
+            byte[][] numbers = new byte[5][];
+        } 
 
     }
 }
