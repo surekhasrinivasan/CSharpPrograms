@@ -446,6 +446,11 @@ namespace CSharpExamplesOnArrays
             {
                 numbers[i] = new byte[i + 3];
             }
+            for(int i = 0; i < numbers.Length; i++)
+            {
+                Console.WriteLine("Length of row {0} is {1}", i, numbers[i].Length);
+            }
+            Console.ReadLine();
         } 
 
     }
