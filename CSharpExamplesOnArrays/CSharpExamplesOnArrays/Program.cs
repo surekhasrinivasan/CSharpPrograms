@@ -442,6 +442,10 @@ namespace CSharpExamplesOnArrays
         static void Main()
         {
             byte[][] numbers = new byte[5][];
+            for(int i = 0; i < numbers.Length; i++)
+            {
+                numbers[i] = new byte[i + 3];
+            }
         } 
 
     }
