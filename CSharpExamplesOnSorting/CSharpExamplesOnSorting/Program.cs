@@ -15,10 +15,12 @@ namespace CSharpExamplesOnSorting
 
         public Program()
         {
-            for(int i=0; i<10; i++)
+            for(int i = 0; i < 10; i++)
             {
                 digits.Add(new List<int>());
             }
+            Console.WriteLine("Enter the Number of Records : ");
+            int count = int.Parse(Console.ReadLine());
         }
 
         static void Main(string[] args)
