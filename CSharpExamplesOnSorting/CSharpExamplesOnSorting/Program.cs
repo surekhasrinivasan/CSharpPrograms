@@ -13,6 +13,14 @@ namespace CSharpExamplesOnSorting
         private IList<IList<int>> digits = new List<IList<int>>();
         private int maxLength = 0;
 
+        public Program()
+        {
+            for(int i=0; i<10; i++)
+            {
+                digits.Add(new List<int>());
+            }
+        }
+
         static void Main(string[] args)
         {
         }
