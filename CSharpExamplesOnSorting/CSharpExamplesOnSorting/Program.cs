@@ -21,6 +21,8 @@ namespace CSharpExamplesOnSorting
             }
             Console.WriteLine("Enter the Number of Records : ");
             int count = int.Parse(Console.ReadLine());
+            data = new int[count];
+            Console.ReadLine();
         }
 
         static void Main(string[] args)
