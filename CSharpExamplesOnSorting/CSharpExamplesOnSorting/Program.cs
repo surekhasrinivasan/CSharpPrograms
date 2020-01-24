@@ -28,7 +28,15 @@ namespace CSharpExamplesOnSorting
                 Console.Write("Enter Record {0} : ", i + 1);
 
                 data[i] = int.Parse(Console.ReadLine());
+
+                if (maxLength < data[i].ToString().Length)
+                    maxLength = data[i].ToString().Length;
             }
+        }
+
+        public void RadixSort()
+        {
+
         }
 
         static void Main(string[] args)
