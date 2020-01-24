@@ -23,6 +23,12 @@ namespace CSharpExamplesOnSorting
             int count = int.Parse(Console.ReadLine());
             data = new int[count];
             Console.ReadLine();
+            for(int i =0; i < count; i++)
+            {
+                Console.Write("Enter Record {0} : ", i + 1);
+
+                data[i] = int.Parse(Console.ReadLine());
+            }
         }
 
         static void Main(string[] args)
