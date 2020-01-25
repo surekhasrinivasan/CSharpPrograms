@@ -60,7 +60,10 @@ namespace CSharpExamplesOnSorting
 
         public void ClearDigits()
         {
-
+            for(int k = 0; k < digits.Count; k++)
+            {
+                digits[k].Clear();
+            }
         }
 
         static void Main(string[] args)
