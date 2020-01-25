@@ -58,6 +58,11 @@ namespace CSharpExamplesOnSorting
             }
         }
 
+        public void ClearDigits()
+        {
+
+        }
+
         static void Main(string[] args)
         {
         }
