@@ -54,7 +54,7 @@ namespace CSharpExamplesOnSorting
                         data[index++] = selDigit[l];
                     }
                 }
-                
+                ClearDigits();
             }
         }
 
@@ -77,6 +77,7 @@ namespace CSharpExamplesOnSorting
 
         static void Main(string[] args)
         {
+           
         }
     }
     
