@@ -56,6 +56,7 @@ namespace CSharpExamplesOnSorting
                 }
                 ClearDigits();
             }
+            printSortedData();
         }
 
         public void ClearDigits()
