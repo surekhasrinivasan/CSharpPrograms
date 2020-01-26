@@ -79,7 +79,7 @@ namespace CSharpExamplesOnSorting
         static void Main(string[] args)
         {
             new Program().RadixSort();
-            
+            Console.ReadLine();
         }
     }
     
