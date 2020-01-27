@@ -95,6 +95,8 @@ namespace CSharpExamplesOnSorting
             {
                 Console.WriteLine(array[i]);
             }
+
+            int tmp, min_key;
         }
     }
 
