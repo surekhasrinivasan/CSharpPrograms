@@ -129,7 +129,7 @@ namespace CSharpExamplesOnSorting
     // Program to Demonstrate Heap Sort
     class Program
     {
-
+        int[] arr = { 2, 5, 1, 10, 6, 9, 3, 7, 4, 8 };
     }
 
 }
