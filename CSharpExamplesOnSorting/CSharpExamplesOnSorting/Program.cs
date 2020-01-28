@@ -115,6 +115,10 @@ namespace CSharpExamplesOnSorting
             }
 
             Console.WriteLine("The array after selection sort is: ");
+            for(int i =0; i < 10; i++)
+            {
+                Console.WriteLine(array[i]);
+            }
         }
     }
 
