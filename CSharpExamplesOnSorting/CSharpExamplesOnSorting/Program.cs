@@ -97,6 +97,22 @@ namespace CSharpExamplesOnSorting
             }
 
             int tmp, min_key;
+
+            for(int j = 0; j < array_size; j++)
+            {
+                min_key = j;
+
+                for(int k = j + 1; k < array_size; k++)
+                {
+                    if(array[k] < array[min_key])
+                    {
+                        min_key = k;
+                    }
+                }
+                tmp = array[min_key];
+                array[min_key] = array[j];
+                array[j] = tmp;
+            }
         }
     }
 
