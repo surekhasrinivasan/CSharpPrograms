@@ -119,6 +119,7 @@ namespace CSharpExamplesOnSorting
             {
                 Console.WriteLine(array[i]);
             }
+            Console.ReadLine();
         }
     }
 
