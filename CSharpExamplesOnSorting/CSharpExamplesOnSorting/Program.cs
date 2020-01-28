@@ -113,6 +113,8 @@ namespace CSharpExamplesOnSorting
                 array[min_key] = array[j];
                 array[j] = tmp;
             }
+
+            Console.WriteLine("The array after selection sort is: ");
         }
     }
 
