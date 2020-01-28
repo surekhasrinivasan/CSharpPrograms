@@ -138,6 +138,11 @@ namespace CSharpExamplesOnSorting
                 Console.WriteLine("{0}", arr[i]);
             }            
         }
+
+        public void hsort()
+        {
+
+        }
     }
 
 }
