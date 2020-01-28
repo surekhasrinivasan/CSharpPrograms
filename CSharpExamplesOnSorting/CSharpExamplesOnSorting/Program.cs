@@ -130,6 +130,14 @@ namespace CSharpExamplesOnSorting
     class Program
     {
         int[] arr = { 2, 5, 1, 10, 6, 9, 3, 7, 4, 8 };
+
+        public void print()
+        {
+            for(int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine("{0}", arr[i]);
+            }            
+        }
     }
 
 }
