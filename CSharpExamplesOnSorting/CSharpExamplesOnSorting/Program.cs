@@ -157,7 +157,25 @@ namespace CSharpExamplesOnSorting
 
         public void adjust(int i, int n)
         {
-            
+            int t, j;
+            try
+            {
+                t = arr[i];
+                j = 2 * i;
+                while(j <= n)
+                {
+                    if (j < n && arr[j] < arr[j + 1])
+                        j++;
+                    if (t >= arr[j])
+                        break;
+                    arr[j / 2] = arr[j];
+                    j *= 2;
+                }
+            }
+            catch(IndexOutOfRangeException e)
+            {
+                Console.WriteLine("Array out of bounds ", e);
+            }
         }
     }
 
