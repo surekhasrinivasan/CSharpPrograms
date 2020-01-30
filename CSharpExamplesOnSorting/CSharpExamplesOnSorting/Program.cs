@@ -171,12 +171,23 @@ namespace CSharpExamplesOnSorting
                     arr[j / 2] = arr[j];
                     j *= 2;
                 }
+                arr[j / 2] = t;
             }
             catch(IndexOutOfRangeException e)
             {
                 Console.WriteLine("Array out of bounds ", e);
             }
         }
-    }
 
+        public static void Main()
+        {
+            Program obj = new Program();
+            Console.WriteLine("Elements before sorting : ");
+            obj.print();
+            obj.hsort();
+            Console.WriteLine("Elments after sorting : ");
+            obj.print();
+            Console.Read();
+        }
+    }
 }
