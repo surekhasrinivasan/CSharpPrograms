@@ -197,6 +197,13 @@ namespace CSharpExamplesOnSorting
         static void Main()
         {
             int[] arr = { 3, 2, 1, 5, 4 };
+
+            int t;
+            Console.WriteLine("The Array before sorting is : ");
+            for(int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
         }
     }
 }
