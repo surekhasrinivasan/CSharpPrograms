@@ -141,6 +141,11 @@ namespace CSharpExamplesOnSorting
 
         public void hsort()
         {
+            
+        }
+
+        public void adjust(int i, int n)
+        {
 
         }
     }
