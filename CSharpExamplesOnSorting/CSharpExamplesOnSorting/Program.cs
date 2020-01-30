@@ -126,68 +126,74 @@ namespace CSharpExamplesOnSorting
     //    }
     //}
 
-    // Program to Demonstrate Heap Sort
+    //// Program to Demonstrate Heap Sort
+    //class Program
+    //{
+    //    int[] arr = { 2, 5, 1, 10, 6, 9, 3, 7, 4, 8 };
+
+    //    public void print()
+    //    {
+    //        for(int i = 0; i < arr.Length; i++)
+    //        {
+    //            Console.WriteLine("{0}", arr[i]);
+    //        }            
+    //    }
+
+    //    public void hsort()
+    //    {
+    //        int i, t;
+    //        for(i = 5; i >= 0; i--)
+    //        {
+    //            adjust(i, 9);
+    //        }
+    //        for(i = 8; i >=0; i--)
+    //        {
+    //            t = arr[i + 1];
+    //            arr[i + 1] = arr[0];
+    //            arr[0] = t;
+    //            adjust(0, i);
+    //        }
+    //    }
+
+    //    public void adjust(int i, int n)
+    //    {
+    //        int t, j;
+    //        try
+    //        {
+    //            t = arr[i];
+    //            j = 2 * i;
+    //            while(j <= n)
+    //            {
+    //                if (j < n && arr[j] < arr[j + 1])
+    //                    j++;
+    //                if (t >= arr[j])
+    //                    break;
+    //                arr[j / 2] = arr[j];
+    //                j *= 2;
+    //            }
+    //            arr[j / 2] = t;
+    //        }
+    //        catch(IndexOutOfRangeException e)
+    //        {
+    //            Console.WriteLine("Array out of bounds ", e);
+    //        }
+    //    }
+
+    //    public static void Main()
+    //    {
+    //        Program obj = new Program();
+    //        Console.WriteLine("Elements before sorting : ");
+    //        obj.print();
+    //        obj.hsort();
+    //        Console.WriteLine("Elments after sorting : ");
+    //        obj.print();
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to Perform Bubble Sort
     class Program
     {
-        int[] arr = { 2, 5, 1, 10, 6, 9, 3, 7, 4, 8 };
 
-        public void print()
-        {
-            for(int i = 0; i < arr.Length; i++)
-            {
-                Console.WriteLine("{0}", arr[i]);
-            }            
-        }
-
-        public void hsort()
-        {
-            int i, t;
-            for(i = 5; i >= 0; i--)
-            {
-                adjust(i, 9);
-            }
-            for(i = 8; i >=0; i--)
-            {
-                t = arr[i + 1];
-                arr[i + 1] = arr[0];
-                arr[0] = t;
-                adjust(0, i);
-            }
-        }
-
-        public void adjust(int i, int n)
-        {
-            int t, j;
-            try
-            {
-                t = arr[i];
-                j = 2 * i;
-                while(j <= n)
-                {
-                    if (j < n && arr[j] < arr[j + 1])
-                        j++;
-                    if (t >= arr[j])
-                        break;
-                    arr[j / 2] = arr[j];
-                    j *= 2;
-                }
-                arr[j / 2] = t;
-            }
-            catch(IndexOutOfRangeException e)
-            {
-                Console.WriteLine("Array out of bounds ", e);
-            }
-        }
-
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine("Elements before sorting : ");
-            obj.print();
-            obj.hsort();
-            Console.WriteLine("Elments after sorting : ");
-            obj.print();
-            Console.Read();
-        }
     }
 }
