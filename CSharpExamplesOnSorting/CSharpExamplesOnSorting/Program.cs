@@ -194,6 +194,9 @@ namespace CSharpExamplesOnSorting
     // Program to Perform Bubble Sort
     class Program
     {
-
+        static void Main()
+        {
+            int[] arr = { 3, 2, 1, 5, 4 };
+        }
     }
 }
