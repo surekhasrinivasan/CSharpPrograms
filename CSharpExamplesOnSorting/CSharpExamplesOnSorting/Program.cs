@@ -141,12 +141,23 @@ namespace CSharpExamplesOnSorting
 
         public void hsort()
         {
-            
+            int i, t;
+            for(i = 5; i >= 0; i--)
+            {
+                adjust(i, 9);
+            }
+            for(i = 8; i >=0; i--)
+            {
+                t = arr[i + 1];
+                arr[i + 1] = arr[0];
+                arr[0] = t;
+                adjust(0, i);
+            }
         }
 
         public void adjust(int i, int n)
         {
-
+            
         }
     }
 
