@@ -212,11 +212,17 @@ namespace CSharpExamplesOnSorting
                     if(arr[i] > arr[i + 1])
                     {
                         t = arr[i + 1];
-                        arr[i + 1] arr[i];
+                        arr[i + 1] = arr[i];
                         arr[i] = t;
                     }
                 }
             }
+            Console.WriteLine("The Sorted Array : ");
+            foreach(int array in arr)
+            {
+                Console.Write(array + " ");
+            }
+            Console.ReadLine();
         }
     }
 }
