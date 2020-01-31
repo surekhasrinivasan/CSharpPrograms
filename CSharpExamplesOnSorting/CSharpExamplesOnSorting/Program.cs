@@ -191,38 +191,44 @@ namespace CSharpExamplesOnSorting
     //    }
     //}
 
-    // Program to Perform Bubble Sort
+    //// Program to Perform Bubble Sort
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        int[] arr = { 3, 2, 1, 5, 4 };
+
+    //        int t;
+    //        Console.WriteLine("The Array before sorting is : ");
+    //        for(int i = 0; i < arr.Length; i++)
+    //        {
+    //            Console.WriteLine(arr[i]);
+    //        }
+
+    //        for(int j = 0; j <= arr.Length - 2; j++)
+    //        {
+    //            for(int i = 0; i <= arr.Length - 2; i++)
+    //            {
+    //                if(arr[i] > arr[i + 1])
+    //                {
+    //                    t = arr[i + 1];
+    //                    arr[i + 1] = arr[i];
+    //                    arr[i] = t;
+    //                }
+    //            }
+    //        }
+    //        Console.WriteLine("The Sorted Array : ");
+    //        foreach(int array in arr)
+    //        {
+    //            Console.Write(array + " ");
+    //        }
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Perform Insertion Sort
     class Program
     {
-        static void Main()
-        {
-            int[] arr = { 3, 2, 1, 5, 4 };
 
-            int t;
-            Console.WriteLine("The Array before sorting is : ");
-            for(int i = 0; i < arr.Length; i++)
-            {
-                Console.WriteLine(arr[i]);
-            }
-
-            for(int j = 0; j <= arr.Length - 2; j++)
-            {
-                for(int i = 0; i <= arr.Length - 2; i++)
-                {
-                    if(arr[i] > arr[i + 1])
-                    {
-                        t = arr[i + 1];
-                        arr[i + 1] = arr[i];
-                        arr[i] = t;
-                    }
-                }
-            }
-            Console.WriteLine("The Sorted Array : ");
-            foreach(int array in arr)
-            {
-                Console.Write(array + " ");
-            }
-            Console.ReadLine();
-        }
     }
 }
