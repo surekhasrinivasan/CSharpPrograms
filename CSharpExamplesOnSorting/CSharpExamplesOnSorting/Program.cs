@@ -229,6 +229,9 @@ namespace CSharpExamplesOnSorting
     // Program to Perform Insertion Sort
     class Program
     {
-
+        static void Main()
+        {
+            int[] arr = new int[5] { 83, 12, 3, 34, 60 };
+        }
     }
 }
