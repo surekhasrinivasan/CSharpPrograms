@@ -232,6 +232,12 @@ namespace CSharpExamplesOnSorting
         static void Main()
         {
             int[] arr = new int[5] { 83, 12, 3, 34, 60 };
+            int i;
+            Console.WriteLine("The array before sorting : ");
+            for(i = 0; i < 5; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
         }
     }
 }
