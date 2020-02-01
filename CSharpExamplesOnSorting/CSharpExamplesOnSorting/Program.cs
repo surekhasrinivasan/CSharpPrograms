@@ -242,7 +242,22 @@ namespace CSharpExamplesOnSorting
 
         static void insertSort(int[] data, int n)
         {
-
+            int i, j;
+            for(i = 1; i < n; i++)
+            {
+                int item = data[i];
+                int ins = 0;
+                for(j = i - 1; j >=0 && ins != 1;)
+                {
+                    if (item < data[j])
+                    {
+                        data[j + 1] = data[j];
+                        j--;
+                        data[j + 1] = item;
+                    }
+                    else ins = 1;
+                }
+            }
         }
     }
 }
