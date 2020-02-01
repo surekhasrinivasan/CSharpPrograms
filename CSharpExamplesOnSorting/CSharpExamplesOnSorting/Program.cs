@@ -238,6 +238,13 @@ namespace CSharpExamplesOnSorting
             {
                 Console.WriteLine(arr[i]);
             }
+            insertSort(arr, 5);
+            Console.WriteLine("The sorted array is : ");
+            for(i = 0; i < 5; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+            Console.ReadLine();
         }
 
         // insertion sort() method is used to sort elements in ascending. 
