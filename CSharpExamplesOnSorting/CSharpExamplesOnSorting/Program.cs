@@ -240,6 +240,11 @@ namespace CSharpExamplesOnSorting
             }
         }
 
+        // insertion sort() method is used to sort elements in ascending. 
+        // The second element of an array is compared with the elements that
+        // appear before it, only first element in this case. If the second
+        // element is smaller than first element, second element is inserted in 
+        // the position of the first element. 
         static void insertSort(int[] data, int n)
         {
             int i, j;
