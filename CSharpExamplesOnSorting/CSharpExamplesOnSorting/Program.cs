@@ -239,5 +239,10 @@ namespace CSharpExamplesOnSorting
                 Console.WriteLine(arr[i]);
             }
         }
+
+        static void insertSort(int[] data, int n)
+        {
+
+        }
     }
 }
