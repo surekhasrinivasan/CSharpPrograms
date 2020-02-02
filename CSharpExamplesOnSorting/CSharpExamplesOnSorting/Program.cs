@@ -226,50 +226,56 @@ namespace CSharpExamplesOnSorting
     //    }
     //}
 
-    // Program to Perform Insertion Sort
+    //// Program to Perform Insertion Sort
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        int[] arr = new int[5] { 83, 12, 3, 34, 60 };
+    //        int i;
+    //        Console.WriteLine("The array before sorting : ");
+    //        for(i = 0; i < 5; i++)
+    //        {
+    //            Console.WriteLine(arr[i]);
+    //        }
+    //        insertSort(arr, 5);
+    //        Console.WriteLine("The sorted array is : ");
+    //        for(i = 0; i < 5; i++)
+    //        {
+    //            Console.WriteLine(arr[i]);
+    //        }
+    //        Console.ReadLine();
+    //    }
+
+    //    // insertion sort() method is used to sort elements in ascending. 
+    //    // The second element of an array is compared with the elements that
+    //    // appear before it, only first element in this case. If the second
+    //    // element is smaller than first element, second element is inserted in 
+    //    // the position of the first element. 
+    //    static void insertSort(int[] data, int n)
+    //    {
+    //        int i, j;
+    //        for(i = 1; i < n; i++)
+    //        {
+    //            int item = data[i];
+    //            int ins = 0;
+    //            for(j = i - 1; j >=0 && ins != 1;)
+    //            {
+    //                if (item < data[j])
+    //                {
+    //                    data[j + 1] = data[j];
+    //                    j--;
+    //                    data[j + 1] = item;
+    //                }
+    //                else ins = 1;
+    //            }
+    //        }
+    //    }
+    //}
+
+    // Program to Perform Merge Sort
     class Program
     {
-        static void Main()
-        {
-            int[] arr = new int[5] { 83, 12, 3, 34, 60 };
-            int i;
-            Console.WriteLine("The array before sorting : ");
-            for(i = 0; i < 5; i++)
-            {
-                Console.WriteLine(arr[i]);
-            }
-            insertSort(arr, 5);
-            Console.WriteLine("The sorted array is : ");
-            for(i = 0; i < 5; i++)
-            {
-                Console.WriteLine(arr[i]);
-            }
-            Console.ReadLine();
-        }
 
-        // insertion sort() method is used to sort elements in ascending. 
-        // The second element of an array is compared with the elements that
-        // appear before it, only first element in this case. If the second
-        // element is smaller than first element, second element is inserted in 
-        // the position of the first element. 
-        static void insertSort(int[] data, int n)
-        {
-            int i, j;
-            for(i = 1; i < n; i++)
-            {
-                int item = data[i];
-                int ins = 0;
-                for(j = i - 1; j >=0 && ins != 1;)
-                {
-                    if (item < data[j])
-                    {
-                        data[j + 1] = data[j];
-                        j--;
-                        data[j + 1] = item;
-                    }
-                    else ins = 1;
-                }
-            }
-        }
     }
 }
