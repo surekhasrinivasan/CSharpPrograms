@@ -280,5 +280,10 @@ namespace CSharpExamplesOnSorting
         {
             int[] numbers = { 3, 8, 7, 5, 2, 1, 9, 6, 4 };
         }
+
+        public static void mergeMethod(int[] numbers, int left, int mid, int right)
+        {
+
+        }
     }
 }
