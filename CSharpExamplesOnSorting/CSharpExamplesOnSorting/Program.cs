@@ -285,5 +285,10 @@ namespace CSharpExamplesOnSorting
         {
 
         }
+
+        public static void sortMethod(int[] numbers, int left, int right)
+        {
+
+        }
     }
 }
