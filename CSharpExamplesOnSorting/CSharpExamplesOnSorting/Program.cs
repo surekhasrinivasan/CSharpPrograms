@@ -276,6 +276,9 @@ namespace CSharpExamplesOnSorting
     // Program to Perform Merge Sort
     class Program
     {
-
+        static void Main()
+        {
+            int[] numbers = { 3, 8, 7, 5, 2, 1, 9, 6, 4 };
+        }
     }
 }
