@@ -279,6 +279,12 @@ namespace CSharpExamplesOnSorting
         static void Main()
         {
             int[] numbers = { 3, 8, 7, 5, 2, 1, 9, 6, 4 };
+            int len = 9;
+            Console.WriteLine("MergeSort : ");
+            sortMethod(numbers, 0, len - 1);
+            for(int i = 0; i < 9; i++)
+                Console.WriteLine(numbers[i]);
+            Console.Read();
         }
 
         public static void mergeMethod(int[] numbers, int left, int mid, int right)
