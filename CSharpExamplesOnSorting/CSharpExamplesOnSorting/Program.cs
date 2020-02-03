@@ -310,7 +310,14 @@ namespace CSharpExamplesOnSorting
 
         public static void sortMethod(int[] numbers, int left, int right)
         {
-
+            int mid;
+            if(right > left)
+            {
+                mid = (right + left) / 2;
+                sortMethod(numbers, left, mid);
+                sortMethod(numbers, (mid + 1), right);
+                mergeMethod(numbers, left, (mid + 1), right);
+            }
         }
     }
 }
