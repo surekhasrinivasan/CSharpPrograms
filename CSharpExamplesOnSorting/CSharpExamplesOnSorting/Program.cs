@@ -337,5 +337,11 @@ namespace CSharpExamplesOnSorting
     {
         private int[] array = new int[20];
         private int len;
+
+        public void QuickSort()
+        {
+            sort(0, len - 1);
+        }
+        
     }
 }
