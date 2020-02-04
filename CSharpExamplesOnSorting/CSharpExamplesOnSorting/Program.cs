@@ -332,4 +332,10 @@ namespace CSharpExamplesOnSorting
     {
 
     }
+
+    class quickSort
+    {
+        private int[] array = new int[20];
+        private int len;
+    }
 }
