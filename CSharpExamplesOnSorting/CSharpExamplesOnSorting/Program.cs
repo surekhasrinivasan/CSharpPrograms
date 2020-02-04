@@ -342,6 +342,16 @@ namespace CSharpExamplesOnSorting
         {
             sort(0, len - 1);
         }
-        
+
+        public void sort(int left, int right)
+        {
+            int pivot, leftend, rightend;
+
+            leftend = left;
+            rightend = right;
+            pivot = array[left];
+
+
+        }
     }
 }
