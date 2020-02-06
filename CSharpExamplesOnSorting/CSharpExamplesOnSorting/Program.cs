@@ -328,15 +328,7 @@ namespace CSharpExamplesOnSorting
     //}
 
     // Program to Implement Quick Sort
-    class Program
-    {
-        public static void Main()
-        {
-            quickSort q_sort = new quickSort();
-        }
-    }
-
-    class quickSort
+    public class quickSort
     {
         private int[] array = new int[20];
         private int len;
@@ -392,6 +384,22 @@ namespace CSharpExamplesOnSorting
                 sort(pivot + 1, right);
             }
 
+        }
+
+        public static void Main()
+        {
+            quickSort q_Sort = new quickSort();
+
+            int[] array = { 4, 3, 1, 4, 6, 7, 5, 4, 32, 5, 26, 187, 8 };
+            q_Sort.array = array;
+            q_Sort.len = q_Sort.array.Length;
+            q_Sort.QuickSort();
+
+            for (int j = 0; j < q_Sort.len; j++)
+            {
+                Console.WriteLine(q_Sort.array[j]);
+            }
+            Console.ReadKey();
         }
     }
 }
