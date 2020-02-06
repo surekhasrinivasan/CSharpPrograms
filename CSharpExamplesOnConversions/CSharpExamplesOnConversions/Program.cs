@@ -13,6 +13,9 @@ namespace CSharpExamplesOnConversions
         {
             int num, binary_value, decimal_value = 0, base_value = 1, rem;
 
+            Console.WriteLine("Enter a Binary Number(1s and 0s) : ");
+            num = int.Parse(Console.ReadLine()); // maximum five digits 
+
         }
     }
 }
