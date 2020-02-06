@@ -360,9 +360,35 @@ namespace CSharpExamplesOnSorting
                 if(left != right)
                 {
                     array[left] = array[right];
-                    left;
+                    left++;
                 }
             }
+            while ((array[left] <= pivot) && (left < right))
+            {
+                left++;
+            }
+
+            if (left != right)
+            {
+                array[right] = array[left];
+                right--;
+            }
+
+            array[left] = pivot;
+            pivot = left;
+            left = leftend;
+            right = rightend;
+
+            if (left < pivot)
+            {
+                sort(left, pivot - 1);
+            }
+
+            if (right > pivot)
+            {
+                sort(pivot + 1, right);
+            }
+
         }
     }
 }
