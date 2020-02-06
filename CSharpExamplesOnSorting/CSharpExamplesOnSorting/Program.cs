@@ -330,7 +330,10 @@ namespace CSharpExamplesOnSorting
     // Program to Implement Quick Sort
     class Program
     {
-
+        public static void Main()
+        {
+            quickSort q_sort = new quickSort();
+        }
     }
 
     class quickSort
