@@ -11,6 +11,8 @@ namespace CSharpExamplesOnConversions
     {
         static void Main(string[] args)
         {
+            int num, binary_value, decimal_value = 0, base_value = 1, rem;
+
         }
     }
 }
