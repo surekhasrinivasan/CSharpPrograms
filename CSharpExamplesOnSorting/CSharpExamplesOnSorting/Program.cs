@@ -351,7 +351,18 @@ namespace CSharpExamplesOnSorting
             rightend = right;
             pivot = array[left];
 
-
+            while(left < right)
+            {
+                while((array[right] >= pivot) && (left < right))
+                {
+                    right--;
+                }
+                if(left != right)
+                {
+                    array[left] = array[right];
+                    left;
+                }
+            }
         }
     }
 }
