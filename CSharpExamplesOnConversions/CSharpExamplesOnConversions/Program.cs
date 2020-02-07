@@ -32,6 +32,11 @@ namespace CSharpExamplesOnConversions
     // Program to Convert Decimal to Binary
     class Program
     {
-
+        static void Main()
+        {
+            int num;
+            Console.WriteLine("Enter a Number: ");
+            num = int.Parse(Console.ReadLine());
+        }
     }
 }
