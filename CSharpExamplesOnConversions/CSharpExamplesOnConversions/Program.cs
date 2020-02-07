@@ -23,7 +23,9 @@ namespace CSharpExamplesOnConversions
                 num = num / 10;
                 base_value = base_value * 2;
             }
-
+            Console.WriteLine("The Binary number is : " + binary_value );
+            Console.WriteLine("The Decimal number is : " + decimal_value);
+            Console.ReadLine();
         }
     }
 }
