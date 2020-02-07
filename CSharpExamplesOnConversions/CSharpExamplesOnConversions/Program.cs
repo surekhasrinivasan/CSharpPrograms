@@ -37,6 +37,8 @@ namespace CSharpExamplesOnConversions
             int num;
             Console.WriteLine("Enter a Number: ");
             num = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("The give decimal number is: " + num);
         }
     }
 }
