@@ -60,6 +60,12 @@ namespace CSharpExamplesOnConversions
     // Program to Convert Decimal to Octal
     class Program
     {
+        public static void Main()
+        {
+            int decimalNum, quotient, i = 1, j;
+            int[] octalNum = new int[100];
 
+
+        }
     }
 }
