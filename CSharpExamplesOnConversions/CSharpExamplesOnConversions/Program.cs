@@ -67,6 +67,16 @@ namespace CSharpExamplesOnConversions
 
             Console.WriteLine("Enter a Decimal Number : ");
             decimalNum = int.Parse(Console.ReadLine());
+            quotient = decimalNum;
+            while(quotient != 0)
+            {
+                octalNum[i++] = quotient % 8;
+                quotient = quotient / 8;
+            }
+            Console.Write("Equivalent Octal number is : ");
+            for(j = i-1; j > 0; j--)
+                Console.Write(octalNum[j]);
+            Console.ReadLine();
         }
     }
 }
