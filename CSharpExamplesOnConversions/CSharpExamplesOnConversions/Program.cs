@@ -38,7 +38,7 @@ namespace CSharpExamplesOnConversions
             Console.WriteLine("Enter a Number: ");
             num = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("The give decimal number is: " + num);
+            Console.WriteLine("The given decimal number is: " + num);
             int quot;
             string rem = "";
             while(num >= 1)
@@ -52,6 +52,7 @@ namespace CSharpExamplesOnConversions
             {
                 bin = bin + rem[i];
             }
+            Console.WriteLine("The Binary format for given number is {0}", bin);
         }
     }
 }
