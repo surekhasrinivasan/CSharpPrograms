@@ -39,6 +39,8 @@ namespace CSharpExamplesOnConversions
             num = int.Parse(Console.ReadLine());
 
             Console.WriteLine("The give decimal number is: " + num);
+            int quot;
+            string rem = "";
         }
     }
 }
