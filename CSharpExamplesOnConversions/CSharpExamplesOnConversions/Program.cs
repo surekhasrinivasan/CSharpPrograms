@@ -65,7 +65,8 @@ namespace CSharpExamplesOnConversions
             int decimalNum, quotient, i = 1, j;
             int[] octalNum = new int[100];
 
-
+            Console.WriteLine("Enter a Decimal Number : ");
+            decimalNum = int.Parse(Console.ReadLine());
         }
     }
 }
