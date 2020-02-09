@@ -53,6 +53,7 @@ namespace CSharpExamplesOnConversions
                 bin = bin + rem[i];
             }
             Console.WriteLine("The Binary format for given number is {0}", bin);
+            Console.Read();
         }
     }
 }
