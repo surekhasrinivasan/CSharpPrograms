@@ -100,6 +100,8 @@ namespace CSharpExamplesOnConversions
         static void Main()
         {
             double celsius;
+            Console.WriteLine("Enter the Temperature in Fahrenheit(degree F) : ");
+            double fahrenheit = Convert.ToDouble(Console.ReadLine());
 
         }
     }
