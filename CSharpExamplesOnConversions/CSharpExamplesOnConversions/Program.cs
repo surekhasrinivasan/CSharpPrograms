@@ -57,26 +57,32 @@ namespace CSharpExamplesOnConversions
     //    }
     //}
 
-    // Program to Convert Decimal to Octal
+    //// Program to Convert Decimal to Octal
+    //class Program
+    //{
+    //    public static void Main()
+    //    {
+    //        int decimalNum, quotient, i = 1, j;
+    //        int[] octalNum = new int[100];
+
+    //        Console.WriteLine("Enter a Decimal Number : ");
+    //        decimalNum = int.Parse(Console.ReadLine());
+    //        quotient = decimalNum;
+    //        while(quotient != 0)
+    //        {
+    //            octalNum[i++] = quotient % 8;
+    //            quotient = quotient / 8;
+    //        }
+    //        Console.Write("Equivalent Octal number is : ");
+    //        for(j = i-1; j > 0; j--)
+    //            Console.Write(octalNum[j]);
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Perform Celsius to Fahrenheit Conversion
     class Program
     {
-        public static void Main()
-        {
-            int decimalNum, quotient, i = 1, j;
-            int[] octalNum = new int[100];
 
-            Console.WriteLine("Enter a Decimal Number : ");
-            decimalNum = int.Parse(Console.ReadLine());
-            quotient = decimalNum;
-            while(quotient != 0)
-            {
-                octalNum[i++] = quotient % 8;
-                quotient = quotient / 8;
-            }
-            Console.Write("Equivalent Octal number is : ");
-            for(j = i-1; j > 0; j--)
-                Console.Write(octalNum[j]);
-            Console.ReadLine();
-        }
     }
 }
