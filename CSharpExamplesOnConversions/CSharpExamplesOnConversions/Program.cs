@@ -86,6 +86,9 @@ namespace CSharpExamplesOnConversions
         static void Main(string[] args)
         {
             int celsius, faren;
+            Console.WriteLine("Enter the Temperature in Celsius(degree C) : ");
+            celsius = int.Parse(Console.ReadLine());
+
         }
     }
 }
