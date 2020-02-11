@@ -83,6 +83,9 @@ namespace CSharpExamplesOnConversions
     // Program to Perform Celsius to Fahrenheit Conversion
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            int celsius, faren;
+        }
     }
 }
