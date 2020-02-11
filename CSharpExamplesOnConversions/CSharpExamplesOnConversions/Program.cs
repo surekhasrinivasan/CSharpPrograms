@@ -80,17 +80,23 @@ namespace CSharpExamplesOnConversions
     //    }
     //}
 
-    // Program to Perform Celsius to Fahrenheit Conversion
+    //// Program to Perform Celsius to Fahrenheit Conversion
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        int celsius, faren;
+    //        Console.WriteLine("Enter the Temperature in Celsius(degree C) : ");
+    //        celsius = int.Parse(Console.ReadLine());
+    //        faren = (celsius * 9) / 5 + 32;
+    //        Console.WriteLine("The Temperature in Fahrenheit is (degree F) : " + faren);
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Convert Fahrenheit to Celsius 
     class Program
     {
-        static void Main(string[] args)
-        {
-            int celsius, faren;
-            Console.WriteLine("Enter the Temperature in Celsius(degree C) : ");
-            celsius = int.Parse(Console.ReadLine());
-            faren = (celsius * 9) / 5 + 32;
-            Console.WriteLine("The Temperature in Fahrenheit is (degree F) : " + faren);
-            Console.ReadLine();
-        }
+
     }
 }
