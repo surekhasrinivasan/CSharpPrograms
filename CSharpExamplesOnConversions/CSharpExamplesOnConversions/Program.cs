@@ -88,7 +88,9 @@ namespace CSharpExamplesOnConversions
             int celsius, faren;
             Console.WriteLine("Enter the Temperature in Celsius(degree C) : ");
             celsius = int.Parse(Console.ReadLine());
-
+            faren = (celsius * 9) / 5 + 32;
+            Console.WriteLine("The Temperature in Fahrenheit is (degree F) : " + faren);
+            Console.ReadLine();
         }
     }
 }
