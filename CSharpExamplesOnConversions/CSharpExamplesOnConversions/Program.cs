@@ -97,6 +97,10 @@ namespace CSharpExamplesOnConversions
     // Program to Convert Fahrenheit to Celsius 
     class Program
     {
+        static void Main()
+        {
+            double celsius;
 
+        }
     }
 }
