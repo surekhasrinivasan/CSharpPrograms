@@ -94,17 +94,23 @@ namespace CSharpExamplesOnConversions
     //    }
     //}
 
-    // Program to Convert Fahrenheit to Celsius 
+    //// Program to Convert Fahrenheit to Celsius 
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        double celsius;
+    //        Console.WriteLine("Enter the Temperature in Fahrenheit(degree F) : ");
+    //        double fahrenheit = Convert.ToDouble(Console.ReadLine());
+    //        celsius = (fahrenheit - 32) * 5 / 9;
+    //        Console.WriteLine("The converted Celsius temperature is : " + celsius);
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Create a Gray Code
     class Program
     {
-        static void Main()
-        {
-            double celsius;
-            Console.WriteLine("Enter the Temperature in Fahrenheit(degree F) : ");
-            double fahrenheit = Convert.ToDouble(Console.ReadLine());
-            celsius = (fahrenheit - 32) * 5 / 9;
-            Console.WriteLine("The converted Celsius temperature is : " + celsius);
-            Console.ReadLine();
-        }
+
     }
 }
