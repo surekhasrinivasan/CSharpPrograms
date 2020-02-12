@@ -111,6 +111,10 @@ namespace CSharpExamplesOnConversions
     // Program to Create a Gray Code
     class Program
     {
-
+        // grayEncode() method - to convert the number into gray code
+        public static ulong grayEncode(ulong n)
+        {
+            return n ^ (n >> 1);
+        }
     }
 }
