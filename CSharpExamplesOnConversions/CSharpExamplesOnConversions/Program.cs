@@ -127,5 +127,15 @@ namespace CSharpExamplesOnConversions
                 b |= p = n & i ^ p >> 1;
             return b;
         }
+
+        public static void Main()
+        {
+            Console.WriteLine("Number\tGray");
+            for(ulong i =0; i < 10; i++)
+            {
+                Console.WriteLine(string.Format("{0}\t{1}",i,Convert.ToString((long)grayEncode(i),2)));
+            }
+            Console.Read();
+        }
     }
 }
