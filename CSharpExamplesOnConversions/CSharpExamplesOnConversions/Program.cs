@@ -116,5 +116,16 @@ namespace CSharpExamplesOnConversions
         {
             return n ^ (n >> 1);
         }
+
+        // grayDecode() function - compute the binary left shift operator
+        public static ulong grayDecode(ulong n)
+        {
+            ulong i = 1 << 8 * 64 - 2; // long is 64-bit
+            ulong p, b = p = n & i;
+
+            while ((i >>= 1) > 0)
+                b |= p = n & i ^ p >> 1;
+            return b;
+        }
     }
 }
