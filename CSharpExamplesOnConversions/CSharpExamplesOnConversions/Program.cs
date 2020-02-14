@@ -146,7 +146,8 @@ namespace CSharpExamplesOnConversions
         {
             char a;
             int i;
-
+            Console.WriteLine("Enter the Character : ");
+            a = Convert.ToChar(Console.ReadLine());
         }
     }
 }
