@@ -142,6 +142,11 @@ namespace CSharpExamplesOnConversions
     // Program to Obtain the Character from the User and Convert the Case of the Character
     class Program
     {
+        static void Main()
+        {
+            char a;
+            int i;
 
+        }
     }
 }
