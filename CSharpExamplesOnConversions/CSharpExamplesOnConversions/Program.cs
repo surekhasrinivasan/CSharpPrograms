@@ -139,25 +139,31 @@ namespace CSharpExamplesOnConversions
     //    }
     //}
 
-    // Program to Obtain the Character from the User and Convert the Case of the Character
+    //// Program to Obtain the Character from the User and Convert the Case of the Character
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        char a;
+    //        int i;
+    //        Console.WriteLine("Enter the Character : ");
+    //        a = Convert.ToChar(Console.ReadLine());
+    //        i = (int)a;
+    //        if(a >= 65 && a <= 90)
+    //        {
+    //            Console.WriteLine("The Character is : {0}", char.ToLower(a));
+    //        }
+    //        else if(a >= 97 && a <= 122)
+    //        {
+    //            Console.WriteLine("The Character is : {0}", char.ToUpper(a));
+    //        }
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    // Program to Convert a Given Number of Days in terms of Years, Weeks & Days
     class Program
     {
-        static void Main()
-        {
-            char a;
-            int i;
-            Console.WriteLine("Enter the Character : ");
-            a = Convert.ToChar(Console.ReadLine());
-            i = (int)a;
-            if(a >= 65 && a <= 90)
-            {
-                Console.WriteLine("The Character is : {0}", char.ToLower(a));
-            }
-            else if(a >= 97 && a <= 122)
-            {
-                Console.WriteLine("The Character is : {0}", char.ToUpper(a));
-            }
-            Console.ReadLine();
-        }
+
     }
 }
