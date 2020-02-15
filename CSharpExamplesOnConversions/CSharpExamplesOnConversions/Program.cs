@@ -167,6 +167,9 @@ namespace CSharpExamplesOnConversions
         static void Main()
         {
             int ndays, year, week, days, DAYSINWEEK = 7;
+            Console.WriteLine("Enter the number of days : ");
+            ndays = int.Parse(Console.ReadLine());
+
         }
     }
 }
