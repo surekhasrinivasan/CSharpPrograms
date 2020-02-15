@@ -164,6 +164,9 @@ namespace CSharpExamplesOnConversions
     // Program to Convert a Given Number of Days in terms of Years, Weeks & Days
     class Program
     {
-
+        static void Main()
+        {
+            int ndays, year, week, days, DAYSINWEEK = 7;
+        }
     }
 }
