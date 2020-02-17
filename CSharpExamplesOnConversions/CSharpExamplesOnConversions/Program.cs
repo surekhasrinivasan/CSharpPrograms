@@ -181,6 +181,12 @@ namespace CSharpExamplesOnConversions
     // Program to Perform Currency Conversions
     class Program
     {
-
+        static void Main()
+        {
+            int choice;
+            Console.WriteLine("Enter your choice :\n 1 - Dollar to Rupee \n" +
+                              " 2 - Euro to Rupee \n 3 - Malaysian Ringgit to Rupee ");      : ");
+            choice = int.Parse(Console.ReadLine());
+        }
     }
 }
