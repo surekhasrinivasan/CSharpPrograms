@@ -199,7 +199,10 @@ namespace CSharpExamplesOnConversions
                     rupee = dollar * val;
                     Console.WriteLine("{0} Dollar Equals {1} Rupees", dollar, rupee);
                     break;
-
+                case 2:
+                    Double Euro, rupe, valu;
+                    Console.WriteLine("Enter the Euro Amount : ");
+                    Euro = double.Parse(Console.ReadLine());
             }
         }
     }
