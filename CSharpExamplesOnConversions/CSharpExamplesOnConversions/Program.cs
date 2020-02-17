@@ -194,6 +194,12 @@ namespace CSharpExamplesOnConversions
                     Double dollar, rupee, val;
                     Console.WriteLine("Enter the Dollar Amount : ");
                     dollar = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter the Dollar value : ");
+                    val = double.Parse(Console.ReadLine());
+                    rupee = dollar * val;
+                    Console.WriteLine("{0} Dollar Equals {1} Rupees", dollar, rupee);
+                    break;
+
             }
         }
     }
