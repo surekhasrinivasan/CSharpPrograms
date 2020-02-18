@@ -212,6 +212,9 @@ namespace CSharpExamplesOnConversions
                     Double ringit, rup, value;
                     Console.WriteLine("Enter the Ringgit Amount : ");
                     ringit = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter the Ringgit value : ");
+                    value = double.Parse(Console.ReadLine());
+                    rup = ringit * value;
             }
         }
     }
