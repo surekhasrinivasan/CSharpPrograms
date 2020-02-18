@@ -203,6 +203,11 @@ namespace CSharpExamplesOnConversions
                     Double Euro, rupe, valu;
                     Console.WriteLine("Enter the Euro Amount : ");
                     Euro = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter the Euro value : ");
+                    valu = double.Parse(Console.ReadLine());
+                    rupe = Euro * valu;
+                    Console.WriteLine("{0} Euro Equals {1} Rupees", Euro, rupe);
+                    break;
             }
         }
     }
