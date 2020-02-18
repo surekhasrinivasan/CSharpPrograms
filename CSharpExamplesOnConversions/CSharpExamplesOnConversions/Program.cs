@@ -208,6 +208,10 @@ namespace CSharpExamplesOnConversions
                     rupe = Euro * valu;
                     Console.WriteLine("{0} Euro Equals {1} Rupees", Euro, rupe);
                     break;
+                case 3:
+                    Double ringit, rup, value;
+                    Console.WriteLine("Enter the Ringgit Amount : ");
+                    ringit = double.Parse(Console.ReadLine());
             }
         }
     }
