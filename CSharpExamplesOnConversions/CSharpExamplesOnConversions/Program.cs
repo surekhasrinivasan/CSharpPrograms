@@ -185,7 +185,7 @@ namespace CSharpExamplesOnConversions
         {
             int choice;
             Console.WriteLine("Enter your choice :\n 1 - Dollar to Rupee \n" +
-                              " 2 - Euro to Rupee \n 3 - Malaysian Ringgit to Rupee ");      : ");
+                              " 2 - Euro to Rupee \n 3 - Malaysian Ringgit to Rupee ");
             choice = int.Parse(Console.ReadLine());
 
             switch (choice)
@@ -215,7 +215,10 @@ namespace CSharpExamplesOnConversions
                     Console.WriteLine("Enter the Ringgit value : ");
                     value = double.Parse(Console.ReadLine());
                     rup = ringit * value;
+                    Console.WriteLine("{0} Malaysian Ringgit equals {1} Rupees", ringit, rup);
+                    break;
             }
+            Console.ReadLine();
         }
     }
 }
