@@ -227,7 +227,9 @@ namespace CSharpExamplesOnConversions
     {
         static void Main()
         {
-            string input;
+            string Input;
+            Console.WriteLine("Enter a Hexadecimal Number : ");
+            Input = Console.ReadLine();
         }
     }
 }
