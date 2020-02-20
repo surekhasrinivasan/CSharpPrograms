@@ -222,17 +222,23 @@ namespace CSharpExamplesOnConversions
     //    }
     //}
 
-    // Program to Convert HexaDecimal Number to Decimal
+    //// Program to Convert HexaDecimal Number to Decimal
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        string Input;
+    //        Console.WriteLine("Enter a Hexadecimal Number : ");
+    //        Input = Console.ReadLine();
+    //        int Output = int.Parse(Input, System.Globalization.NumberStyles.HexNumber);
+    //        Console.WriteLine("The Decimal value is " + Output);
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to Perform Decimal to HexaDecimal Conversion
     class Program
     {
-        static void Main()
-        {
-            string Input;
-            Console.WriteLine("Enter a Hexadecimal Number : ");
-            Input = Console.ReadLine();
-            int Output = int.Parse(Input, System.Globalization.NumberStyles.HexNumber);
-            Console.WriteLine("The Decimal value is " + Output);
-            Console.Read();
-        }
+
     }
 }
