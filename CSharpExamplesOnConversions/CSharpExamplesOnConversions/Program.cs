@@ -247,6 +247,18 @@ namespace CSharpExamplesOnConversions
             char temp1;
             Console.WriteLine("Enter a Decimal Number : ");
             decimalNumber = int.Parse(Console.ReadLine());
+            quotient = decimalNumber;
+            while(quotient != 0)
+            {
+                temp = quotient % 16;
+                if (temp < 10)
+                    temp = temp + 48;
+                else
+                    temp = temp + 55;
+                temp1 = Convert.ToChar(temp);
+                hexadecimalNumber[i++] = temp1;
+                quotient = quotient / 16;
+            }
         }
     }
 }
