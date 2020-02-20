@@ -239,6 +239,9 @@ namespace CSharpExamplesOnConversions
     // Program to Perform Decimal to HexaDecimal Conversion
     class Program
     {
-
+        static void Main()
+        {
+            int decimalNumber, quotient;
+        }
     }
 }
