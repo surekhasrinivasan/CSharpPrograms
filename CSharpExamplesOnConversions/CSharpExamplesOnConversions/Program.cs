@@ -242,6 +242,11 @@ namespace CSharpExamplesOnConversions
         static void Main()
         {
             int decimalNumber, quotient;
+            int i = 1, j, temp=0;
+            char[] hexadecimalNumber = new char[100];
+            char temp1;
+            Console.WriteLine("Enter a Decimal Number : ");
+            decimalNumber = int.Parse(Console.ReadLine());
         }
     }
 }
