@@ -259,6 +259,10 @@ namespace CSharpExamplesOnConversions
                 hexadecimalNumber[i++] = temp1;
                 quotient = quotient / 16;
             }
+            Console.Write("Equivalent HexaDecimal Number is ");
+            for(j = i -1; j > 0; j--)
+                Console.Write(hexadecimalNumber[j]);
+            Console.Read();
         }
     }
 }
