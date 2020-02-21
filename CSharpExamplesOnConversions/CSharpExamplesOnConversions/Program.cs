@@ -269,6 +269,14 @@ namespace CSharpExamplesOnConversions
     // Program to Perform Conversions of Meter to Kilometer and viceversa
     class Program
     {
+        static void Main()
+        {
+            
+        }
+    }
+
+    public static class ConvertDistance
+    {
 
     }
 }
