@@ -277,6 +277,9 @@ namespace CSharpExamplesOnConversions
 
     public static class ConvertDistance
     {
-
+        public static double cMtK(double meters)
+        {
+            return meters / 1000;
+        }
     }
 }
