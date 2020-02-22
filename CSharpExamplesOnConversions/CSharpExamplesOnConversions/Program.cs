@@ -278,6 +278,15 @@ namespace CSharpExamplesOnConversions
             double m4 = 3107;
             double k4 = ConvertDistance.cMtK(m4);
             Console.WriteLine("{0}   ::     {1}", m4, k4);
+            double k3 = 5.1;
+            Console.WriteLine();
+            Console.WriteLine("Kilometer     ::     Meter");
+            double m3 = ConvertDistance.cKtM(k3);
+            Console.WriteLine("{0}           ::     {1}", k3, m3);
+            double k2 = 3.219;
+            double m2 = ConvertDistance.cKtM(k2);
+            Console.WriteLine("{0}         ::    {1}", k2, m2);
+            Console.Read();
         }
     }
 
