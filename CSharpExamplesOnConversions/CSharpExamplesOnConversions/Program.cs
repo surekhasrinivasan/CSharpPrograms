@@ -271,6 +271,10 @@ namespace CSharpExamplesOnConversions
     {
         static void Main()
         {
+            double m1 = 200;
+            Console.WriteLine("Meter    ::    Kilometer");
+            double k1 = ConvertDistance.cMtK(m1);
+            Console.WriteLine("{0}    ::    {1}", m1, k1);
             
         }
     }
