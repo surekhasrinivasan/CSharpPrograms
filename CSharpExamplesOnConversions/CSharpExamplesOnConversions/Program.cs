@@ -275,7 +275,9 @@ namespace CSharpExamplesOnConversions
             Console.WriteLine("Meter    ::    Kilometer");
             double k1 = ConvertDistance.cMtK(m1);
             Console.WriteLine("{0}    ::    {1}", m1, k1);
-            
+            double m4 = 3107;
+            double k4 = ConvertDistance.cMtK(m4);
+            Console.WriteLine("{0}   ::     {1}", m4, k4);
         }
     }
 
