@@ -281,5 +281,10 @@ namespace CSharpExamplesOnConversions
         {
             return meters / 1000;
         }
+
+        public static double cKtM(double kilometers)
+        {
+            return kilometers * 1000;
+        }
     }
 }
