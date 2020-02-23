@@ -319,6 +319,8 @@ namespace CSharpExamplesOnConversions
 
             Console.WriteLine("Enter the number : ");
             num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Number : " + num);
+            Console.Write("Number in words: ");
         }
     }
 }
