@@ -341,6 +341,10 @@ namespace CSharpExamplesOnConversions
     // Program to Convert Infix to Postfix
     class Program
     {
-
+        static void Main()
+        {
+            string infix = "";
+            string postfix = "";
+        }
     }
 }
