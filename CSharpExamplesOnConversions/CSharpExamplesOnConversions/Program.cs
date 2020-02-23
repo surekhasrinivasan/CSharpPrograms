@@ -331,6 +331,10 @@ namespace CSharpExamplesOnConversions
                 num = num / 10;
             } while (num > 0);
             numdigits--;
+            for(;numdigits >= 0; numdigits--)
+                Console.Write(digits[n[numdigits]] + " ");
+            Console.WriteLine();
+            Console.ReadLine();
         }
     }
 }
