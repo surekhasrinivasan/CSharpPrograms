@@ -321,6 +321,16 @@ namespace CSharpExamplesOnConversions
             num = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Number : " + num);
             Console.Write("Number in words: ");
+            nextdigit = 0;
+            numdigits = 0;
+            do
+            {
+                nextdigit = num % 10;
+                n[numdigits] = nextdigit;
+                numdigits++;
+                num = num / 10;
+            } while (num > 0);
+            numdigits--;
         }
     }
 }
