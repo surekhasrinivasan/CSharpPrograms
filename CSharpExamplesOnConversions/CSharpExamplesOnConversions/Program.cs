@@ -316,6 +316,9 @@ namespace CSharpExamplesOnConversions
             string[] digits = { "zero", "one", "two",
                                 "three", "four", "five",
                                  "six", "seven", "eight", "nine" };
+
+            Console.WriteLine("Enter the number : ");
+            num = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
