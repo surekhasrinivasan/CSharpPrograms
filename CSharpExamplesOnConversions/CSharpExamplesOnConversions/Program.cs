@@ -306,6 +306,16 @@ namespace CSharpExamplesOnConversions
     // Program to Convert Digits to Words
     class Program
     {
+        public static void Main()
+        {
+            int num;
+            int nextdigit;
+            int numdigits;
+            int[] n = new int[20];
 
+            string[] digits = { "zero", "one", "two",
+                                "three", "four", "five",
+                                 "six", "seven", "eight", "nine" };
+        }
     }
 }
