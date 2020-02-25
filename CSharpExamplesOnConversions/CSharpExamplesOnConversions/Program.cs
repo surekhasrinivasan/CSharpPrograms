@@ -349,7 +349,10 @@ namespace CSharpExamplesOnConversions
 
         static bool convert(ref string infix, out string postfix)
         {
-
+            int prio = 0;
+            postfix = "";
+            Stack<Char> s1 = new Stack<char>();
+            
         }
     }
 }
