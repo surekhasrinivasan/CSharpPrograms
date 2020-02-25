@@ -346,5 +346,10 @@ namespace CSharpExamplesOnConversions
             string infix = "";
             string postfix = "";
         }
+
+        static bool convert(ref string infix, out string postfix)
+        {
+
+        }
     }
 }
