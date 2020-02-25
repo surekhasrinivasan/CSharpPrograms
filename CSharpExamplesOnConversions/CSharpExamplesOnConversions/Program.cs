@@ -341,10 +341,17 @@ namespace CSharpExamplesOnConversions
     // Program to Convert Infix to Postfix
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
             string infix = "";
             string postfix = "";
+            if (args.Length == 1)
+            {
+                infix = args[0];
+                convert(ref infix, out postfix);
+                System.Console.WriteLine("InFix  :\t" + infix);
+                System.Console.WriteLine("PostFix:\t" + postfix);
+            }
         }
 
         static bool convert(ref string infix, out string postfix)
