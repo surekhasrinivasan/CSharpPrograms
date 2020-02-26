@@ -352,6 +352,13 @@ namespace CSharpExamplesOnConversions
                 System.Console.WriteLine("InFix  :\t" + infix);
                 System.Console.WriteLine("PostFix:\t" + postfix);
             }
+            else
+            {
+                infix = "a+b*c-d";
+                convert(ref infix, out postfix);
+                Console.WriteLine("InFix :\t" + infix);
+                Console.WriteLine("PostFix :\t" + postfix);
+            }
         }
 
         static bool convert(ref string infix, out string postfix)
