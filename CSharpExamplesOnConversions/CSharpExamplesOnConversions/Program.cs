@@ -338,7 +338,11 @@ namespace CSharpExamplesOnConversions
     //    }
     //}
 
-    // Program to Convert Infix to Postfix
+    // Program to Convert Infix to Postfix.
+    // Here the infix expression is obtained from the user and is 
+    // converted to postfix expression which consists of primary 
+    // expressions or expressions in which postfix operators follow 
+    // a primary expression.
     class Program
     {
         static void Main(string[] args)
@@ -364,6 +368,12 @@ namespace CSharpExamplesOnConversions
                 System.Console.WriteLine("InFix  :\t" + infix);
                 System.Console.WriteLine("PostFix:\t" + postfix);
                 Console.WriteLine();
+                infix = "a-b/c*d-e--f/h*i++j-/k";
+                convert(ref infix, out postfix);
+                System.Console.WriteLine("InFix   :\t" + infix);
+                System.Console.WriteLine("PostFix :\t" + postfix);
+                System.Console.WriteLine();
+                Console.ReadLine();
             }
         }
 
