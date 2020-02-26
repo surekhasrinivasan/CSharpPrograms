@@ -358,21 +358,24 @@ namespace CSharpExamplesOnConversions
             }
             else
             {
+                // testcase 1
                 infix = "a+b*c-d";
                 convert(ref infix, out postfix);
                 Console.WriteLine("InFix :\t" + infix);
                 Console.WriteLine("PostFix :\t" + postfix);
                 Console.WriteLine();
+                // testcase 2
                 infix = "a+b*c-d/e*f";
                 convert(ref infix, out postfix);
-                System.Console.WriteLine("InFix  :\t" + infix);
-                System.Console.WriteLine("PostFix:\t" + postfix);
+                Console.WriteLine("InFix  :\t" + infix);
+                Console.WriteLine("PostFix:\t" + postfix);
                 Console.WriteLine();
+                // testcase 3
                 infix = "a-b/c*d-e--f/h*i++j-/k";
                 convert(ref infix, out postfix);
-                System.Console.WriteLine("InFix   :\t" + infix);
-                System.Console.WriteLine("PostFix :\t" + postfix);
-                System.Console.WriteLine();
+                Console.WriteLine("InFix   :\t" + infix);
+                Console.WriteLine("PostFix :\t" + postfix);
+                Console.WriteLine();
                 Console.ReadLine();
             }
         }
