@@ -350,7 +350,7 @@ namespace CSharpExamplesOnConversions
                 infix = args[0];
                 convert(ref infix, out postfix);
                 System.Console.WriteLine("InFix  :\t" + infix);
-                System.Console.WriteLine("PostFix:\t" + postfix);
+                System.Console.WriteLine("PostFix:\t" + postfix);               
             }
             else
             {
@@ -358,6 +358,12 @@ namespace CSharpExamplesOnConversions
                 convert(ref infix, out postfix);
                 Console.WriteLine("InFix :\t" + infix);
                 Console.WriteLine("PostFix :\t" + postfix);
+                Console.WriteLine();
+                infix = "a+b*c-d/e*f";
+                convert(ref infix, out postfix);
+                System.Console.WriteLine("InFix  :\t" + infix);
+                System.Console.WriteLine("PostFix:\t" + postfix);
+                Console.WriteLine();
             }
         }
 
