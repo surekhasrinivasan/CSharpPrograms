@@ -439,7 +439,17 @@ namespace CSharpExamplesOnConversions
     // Program to Demonstrate DefaultIfEmpty case
     class Program
     {
-
+        static void Main(string[] args)
+        {
+            List<Student> objstudent = new List<Student>
+            {
+                new Student{ Name="Bob", studID="1001"},
+                new Student{ Name="Vijay", studID="1002"},
+                new Student{ Name="Jerry", studID="1003"},
+                new Student{ Name="Tom", studID="1004"},
+                new Student{ Name="Senthil", studID="1005"},
+            };
+        }
     }
 
     class Student
