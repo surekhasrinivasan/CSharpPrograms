@@ -441,5 +441,11 @@ namespace CSharpExamplesOnConversions
     {
 
     }
+
+    class Student
+    {
+        public string Name { get; set; }
+        public string studID { get; set; }
+    }
 }
 
