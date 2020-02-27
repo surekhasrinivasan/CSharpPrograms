@@ -447,5 +447,10 @@ namespace CSharpExamplesOnConversions
         public string Name { get; set; }
         public string studID { get; set; }
     }
+    class StudentDetails
+    {
+        public string SID { get; set; }
+        public string City { get; set; }            
+    }
 }
 
