@@ -458,7 +458,18 @@ namespace CSharpExamplesOnConversions
                 new StudentDetails{ SID="I008", City="Pune"},
                 new StudentDetails{ SID="I009", City=""},
 
-            }
+            };
+
+            var resultDefaultIfEmpty = from student in objstudent
+                                       join StudentDetails in objstudentdetails
+                                       on student.studID equals StudentDetails.SID
+                                       into ResultEmpStudentDetails
+            from output in ResultEmpStudentDetails.DefaultIfEmpty()
+            select new
+            {
+                studentName = student.Name,
+                City = output != null ? output.City : null
+            };
         }
     }
 
