@@ -449,6 +449,16 @@ namespace CSharpExamplesOnConversions
                 new Student{ Name="Tom", studID="1004"},
                 new Student{ Name="Senthil", studID="1005"},
             };
+
+            List<StudentDetails> objstudentdetails = new List<StudentDetails>
+            {
+                new StudentDetails{ SID="I001", City="Delhi"},
+                new StudentDetails{ SID="I002", City="Mumbai"},
+                new StudentDetails{ SID="I007", City="Chennai"},
+                new StudentDetails{ SID="I008", City="Pune"},
+                new StudentDetails{ SID="I009", City=""},
+
+            }
         }
     }
 
