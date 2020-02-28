@@ -460,6 +460,8 @@ namespace CSharpExamplesOnConversions
 
             };
 
+            // DefaultIfEmpty() method return the elements of the specified sequence or 
+            // the type parameter’s default value in a singleton collection if the sequence is empty from the database. 
             var resultDefaultIfEmpty = from student in objstudent
                                        join StudentDetails in objstudentdetails
                                        on student.studID equals StudentDetails.SID
