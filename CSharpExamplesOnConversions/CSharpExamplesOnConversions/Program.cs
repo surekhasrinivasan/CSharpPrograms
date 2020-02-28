@@ -443,11 +443,11 @@ namespace CSharpExamplesOnConversions
         {
             List<Student> objstudent = new List<Student>
             {
-                new Student{ Name="Bob", studID="1001"},
-                new Student{ Name="Vijay", studID="1002"},
-                new Student{ Name="Jerry", studID="1003"},
-                new Student{ Name="Tom", studID="1004"},
-                new Student{ Name="Senthil", studID="1005"},
+                new Student{ Name="Bob", studID="I001"},
+                new Student{ Name="Vijay", studID="I002"},
+                new Student{ Name="Jerry", studID="I003"},
+                new Student{ Name="Tom", studID="I004"},
+                new Student{ Name="Senthil", studID="I005"},
             };
 
             List<StudentDetails> objstudentdetails = new List<StudentDetails>
@@ -472,6 +472,9 @@ namespace CSharpExamplesOnConversions
                 studentName = student.Name,
                 City = output != null ? output.City : null
             };
+            Console.WriteLine(string.Join("\n", resultDefaultIfEmpty.Select(student =>
+            "student Name = " + student.studentName + ", city Name = " + student.City).ToArray<string>()));
+            Console.ReadLine();
         }
     }
 
