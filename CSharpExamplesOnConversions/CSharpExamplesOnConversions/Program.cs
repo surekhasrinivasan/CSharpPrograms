@@ -499,7 +499,9 @@ namespace CSharpExamplesOnConversions
 
         static int ReverseBytes(int val)
         {
-
+            byte[] intAsBytes = BitConverter.GetBytes(val);
+            Array.Reverse(intAsBytes);
+            return BitConverter.ToInt32(intAsBytes, 0);
         }
 
     }
