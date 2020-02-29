@@ -492,6 +492,15 @@ namespace CSharpExamplesOnConversions
     // Program to Convert Big Endian to Little Endian
     class Program
     {
+        static void Main(string[] args)
+        {
+
+        }
+
+        static int ReverseBytes(int val)
+        {
+
+        }
 
     }
 }
