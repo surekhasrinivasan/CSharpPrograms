@@ -504,6 +504,11 @@ namespace CSharpExamplesOnConversions
             return BitConverter.ToInt32(intAsBytes, 0);
         }
 
+        static string IntToBinaryString(int v)
+        {
+
+        }
+
     }
 }
 
