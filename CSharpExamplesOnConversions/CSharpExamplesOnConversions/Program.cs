@@ -436,57 +436,63 @@ namespace CSharpExamplesOnConversions
     //    }
     //}
 
-    // Program to Demonstrate DefaultIfEmpty case
+    //// Program to Demonstrate DefaultIfEmpty case
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        List<Student> objstudent = new List<Student>
+    //        {
+    //            new Student{ Name="Bob", studID="I001"},
+    //            new Student{ Name="Vijay", studID="I002"},
+    //            new Student{ Name="Jerry", studID="I003"},
+    //            new Student{ Name="Tom", studID="I004"},
+    //            new Student{ Name="Senthil", studID="I005"},
+    //        };
+
+    //        List<StudentDetails> objstudentdetails = new List<StudentDetails>
+    //        {
+    //            new StudentDetails{ SID="I001", City="Delhi"},
+    //            new StudentDetails{ SID="I002", City="Mumbai"},
+    //            new StudentDetails{ SID="I007", City="Chennai"},
+    //            new StudentDetails{ SID="I008", City="Pune"},
+    //            new StudentDetails{ SID="I009", City=""},
+
+    //        };
+
+    //        // DefaultIfEmpty() method return the elements of the specified sequence or 
+    //        // the type parameter’s default value in a singleton collection if the sequence is empty from the database. 
+    //        var resultDefaultIfEmpty = from student in objstudent
+    //                                   join StudentDetails in objstudentdetails
+    //                                   on student.studID equals StudentDetails.SID
+    //                                   into ResultEmpStudentDetails
+    //        from output in ResultEmpStudentDetails.DefaultIfEmpty()
+    //        select new
+    //        {
+    //            studentName = student.Name,
+    //            City = output != null ? output.City : null
+    //        };
+    //        Console.WriteLine(string.Join("\n", resultDefaultIfEmpty.Select(student =>
+    //        "student Name = " + student.studentName + ", city Name = " + student.City).ToArray<string>()));
+    //        Console.ReadLine();
+    //    }
+    //}
+
+    //class Student
+    //{
+    //    public string Name { get; set; }
+    //    public string studID { get; set; }
+    //}
+    //class StudentDetails
+    //{
+    //    public string SID { get; set; }
+    //    public string City { get; set; }            
+    //}
+
+    // Program to Convert Big Endian to Little Endian
     class Program
     {
-        static void Main(string[] args)
-        {
-            List<Student> objstudent = new List<Student>
-            {
-                new Student{ Name="Bob", studID="I001"},
-                new Student{ Name="Vijay", studID="I002"},
-                new Student{ Name="Jerry", studID="I003"},
-                new Student{ Name="Tom", studID="I004"},
-                new Student{ Name="Senthil", studID="I005"},
-            };
 
-            List<StudentDetails> objstudentdetails = new List<StudentDetails>
-            {
-                new StudentDetails{ SID="I001", City="Delhi"},
-                new StudentDetails{ SID="I002", City="Mumbai"},
-                new StudentDetails{ SID="I007", City="Chennai"},
-                new StudentDetails{ SID="I008", City="Pune"},
-                new StudentDetails{ SID="I009", City=""},
-
-            };
-
-            // DefaultIfEmpty() method return the elements of the specified sequence or 
-            // the type parameter’s default value in a singleton collection if the sequence is empty from the database. 
-            var resultDefaultIfEmpty = from student in objstudent
-                                       join StudentDetails in objstudentdetails
-                                       on student.studID equals StudentDetails.SID
-                                       into ResultEmpStudentDetails
-            from output in ResultEmpStudentDetails.DefaultIfEmpty()
-            select new
-            {
-                studentName = student.Name,
-                City = output != null ? output.City : null
-            };
-            Console.WriteLine(string.Join("\n", resultDefaultIfEmpty.Select(student =>
-            "student Name = " + student.studentName + ", city Name = " + student.City).ToArray<string>()));
-            Console.ReadLine();
-        }
-    }
-
-    class Student
-    {
-        public string Name { get; set; }
-        public string studID { get; set; }
-    }
-    class StudentDetails
-    {
-        public string SID { get; set; }
-        public string City { get; set; }            
     }
 }
 
