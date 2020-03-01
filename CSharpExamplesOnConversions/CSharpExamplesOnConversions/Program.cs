@@ -496,6 +496,10 @@ namespace CSharpExamplesOnConversions
         {
             int little = 2777;
             int big = ReverseBytes(little);
+            string sLittle = IntToBinaryString(little);
+            string sBig = IntToBinaryString(big);
+            int oLittle = ReverseBytes(big);
+            string oString = IntToBinaryString(oLittle);
 
         }
 
