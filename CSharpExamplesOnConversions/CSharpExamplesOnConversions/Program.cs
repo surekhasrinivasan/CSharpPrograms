@@ -506,7 +506,9 @@ namespace CSharpExamplesOnConversions
 
         static string IntToBinaryString(int v)
         {
-
+            string s = Convert.ToString(v, 2);
+            string t = s.PadLeft(32, '0');
+            string res = "";
         }
 
     }
