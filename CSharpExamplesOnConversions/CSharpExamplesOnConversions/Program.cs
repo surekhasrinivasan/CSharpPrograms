@@ -509,6 +509,13 @@ namespace CSharpExamplesOnConversions
             string s = Convert.ToString(v, 2);
             string t = s.PadLeft(32, '0');
             string res = "";
+            for (int i = 0; i < t.Length; ++i)
+            {
+                if (i > 0 && i % 8 == 0)
+                    res += " ";
+                res += t[i];
+            }
+            return res;
         }
 
     }
