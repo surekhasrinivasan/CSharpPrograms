@@ -494,6 +494,8 @@ namespace CSharpExamplesOnConversions
     {
         static void Main(string[] args)
         {
+            int little = 2777;
+            int big = ReverseBytes(little);
 
         }
 
