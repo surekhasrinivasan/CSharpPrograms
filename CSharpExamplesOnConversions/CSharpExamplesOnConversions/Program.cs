@@ -502,6 +502,8 @@ namespace CSharpExamplesOnConversions
             string oString = IntToBinaryString(oLittle);
             Console.WriteLine("Original (Intel) little endian value = "
                 + little);
+            Console.WriteLine("Original value as binary string " + sLittle);
+
 
         }
 
