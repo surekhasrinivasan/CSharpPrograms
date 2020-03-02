@@ -500,6 +500,8 @@ namespace CSharpExamplesOnConversions
             string sBig = IntToBinaryString(big);
             int oLittle = ReverseBytes(big);
             string oString = IntToBinaryString(oLittle);
+            Console.WriteLine("Original (Intel) little endian value = "
+                + little);
 
         }
 
