@@ -505,8 +505,9 @@ namespace CSharpExamplesOnConversions
             Console.WriteLine("Original value as binary string " + sLittle);
             Console.WriteLine();
             Console.WriteLine("Reversed big endian value " + big);
-
-
+            Console.WriteLine("Reversed value as string " + sBig);
+            Console.WriteLine();
+            Console.ReadLine();
         }
 
         static int ReverseBytes(int val)
