@@ -503,6 +503,8 @@ namespace CSharpExamplesOnConversions
             Console.WriteLine("Original (Intel) little endian value = "
                 + little);
             Console.WriteLine("Original value as binary string " + sLittle);
+            Console.WriteLine();
+            Console.WriteLine("Reversed big endian value " + big);
 
 
         }
