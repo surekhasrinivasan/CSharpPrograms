@@ -13,6 +13,8 @@ namespace CSharpExamplesOnFunctions
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter Number of Elements you want to hold in an Array");
+            string str = Console.ReadLine();
         }
     }
 }
