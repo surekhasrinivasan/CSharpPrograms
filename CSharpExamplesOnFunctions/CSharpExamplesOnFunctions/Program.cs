@@ -17,6 +17,13 @@ namespace CSharpExamplesOnFunctions
             string str = Console.ReadLine();
             int x = Int32.Parse(str);
             int[] arr = new int[x];
+
+            Console.WriteLine("\n Enter the array elements : ");
+            for(int i = 0; i < x; i++)
+            {
+                string str1 = Console.ReadLine();
+                arr[i] = Int32.Parse(str1);
+            }
         }
     }
 }
