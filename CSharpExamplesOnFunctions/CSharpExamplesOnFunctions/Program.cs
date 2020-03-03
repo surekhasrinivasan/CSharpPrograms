@@ -15,6 +15,8 @@ namespace CSharpExamplesOnFunctions
         {
             Console.WriteLine("Enter Number of Elements you want to hold in an Array");
             string str = Console.ReadLine();
+            int x = Int32.Parse(str);
+            int[] arr = new int[x];
         }
     }
 }
