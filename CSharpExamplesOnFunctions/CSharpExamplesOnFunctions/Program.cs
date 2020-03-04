@@ -24,6 +24,7 @@ namespace CSharpExamplesOnFunctions
                 string str1 = Console.ReadLine();
                 arr[i] = Int32.Parse(str1);
             }
+            Array.Reverse(arr);
         }
     }
 }
