@@ -8,29 +8,35 @@ namespace CSharpExamplesOnFunctions
 {
     // Examples on Predefined functions
 
-    // Program to Reverse a String with Predefined Function
+    //// Program to Reverse a String with Predefined Function
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        Console.WriteLine("Enter Number of Elements you want to hold in an Array");
+    //        string str = Console.ReadLine();
+    //        int x = Int32.Parse(str);
+    //        int[] arr = new int[x];
+
+    //        Console.WriteLine("\n Enter the array elements : ");
+    //        for(int i = 0; i < x; i++)
+    //        {
+    //            string str1 = Console.ReadLine();
+    //            arr[i] = Int32.Parse(str1);
+    //        }
+    //        Array.Reverse(arr);
+    //        Console.WriteLine("Reversed Array :");
+    //        for(int i = 0; i < x; i++)
+    //        {
+    //            Console.WriteLine("Element {0} is {1}", i+1, arr[i]);
+    //        }
+    //        Console.Read();
+    //    }
+    //}
+
+    // Program to Sort a String using Predefined Function
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Enter Number of Elements you want to hold in an Array");
-            string str = Console.ReadLine();
-            int x = Int32.Parse(str);
-            int[] arr = new int[x];
 
-            Console.WriteLine("\n Enter the array elements : ");
-            for(int i = 0; i < x; i++)
-            {
-                string str1 = Console.ReadLine();
-                arr[i] = Int32.Parse(str1);
-            }
-            Array.Reverse(arr);
-            Console.WriteLine("Reversed Array :");
-            for(int i = 0; i < x; i++)
-            {
-                Console.WriteLine("Element {0} is {1}", i+1, arr[i]);
-            }
-            Console.Read();
-        }
     }
 }
