@@ -37,6 +37,10 @@ namespace CSharpExamplesOnFunctions
     // Program to Sort a String using Predefined Function
     class Program
     {
-
+        public static void Main()
+        {
+            Console.WriteLine("Enter Number of elements you want to hold in the array : ");
+            string str = Console.ReadLine();
+        }
     }
 }
