@@ -25,6 +25,12 @@ namespace CSharpExamplesOnFunctions
                 arr[i] = Int32.Parse(str1);
             }
             Array.Reverse(arr);
+            Console.WriteLine("Reversed Array :");
+            for(int i = 0; i < x; i++)
+            {
+                Console.WriteLine("Element {0} is {1}", i+1, arr[i]);
+            }
+            Console.Read();
         }
     }
 }
