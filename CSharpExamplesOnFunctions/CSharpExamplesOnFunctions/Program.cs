@@ -50,6 +50,12 @@ namespace CSharpExamplesOnFunctions
                 a[i] = Int32.Parse(s1);
             }
             Array.Sort(a);
+            Console.WriteLine("Sorted Array : ");
+            for(int i = 0; i < x; i++)
+            {
+                Console.WriteLine("{0}", a[i]);
+            }
+            Console.Read();
         }
     }
 }
