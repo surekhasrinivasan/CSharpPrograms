@@ -42,6 +42,13 @@ namespace CSharpExamplesOnFunctions
             Console.WriteLine("Enter Number of elements you want to hold in the array : ");
             string str = Console.ReadLine();
             int x = Int32.Parse(str);
+            int[] a = new int[x];
+            Console.WriteLine("Enter Array elements : ");
+            for(int i = 0; i < x; i++)
+            {
+                string s1 = Console.ReadLine();
+                a[i] = Int32.Parse(s1);
+            }
         }
     }
 }
