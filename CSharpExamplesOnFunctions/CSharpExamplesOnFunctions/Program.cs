@@ -49,6 +49,7 @@ namespace CSharpExamplesOnFunctions
                 string s1 = Console.ReadLine();
                 a[i] = Int32.Parse(s1);
             }
+            Array.Sort(a);
         }
     }
 }
