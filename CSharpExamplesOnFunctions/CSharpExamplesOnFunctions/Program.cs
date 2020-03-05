@@ -41,6 +41,7 @@ namespace CSharpExamplesOnFunctions
         {
             Console.WriteLine("Enter Number of elements you want to hold in the array : ");
             string str = Console.ReadLine();
+            int x = Int32.Parse(str);
         }
     }
 }
