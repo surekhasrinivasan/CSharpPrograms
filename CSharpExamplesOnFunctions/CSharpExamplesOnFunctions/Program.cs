@@ -66,7 +66,7 @@ namespace CSharpExamplesOnFunctions
         object obj;
         void boxmethod()
         {
-
+            Program p = new Program();
         }
     }
 }
