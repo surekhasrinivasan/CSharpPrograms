@@ -62,6 +62,7 @@ namespace CSharpExamplesOnFunctions
     // Program to Demonstrate Boxing Operations
     class Program
     {
-
+        int x = 10;
+        bool b;
     }
 }
