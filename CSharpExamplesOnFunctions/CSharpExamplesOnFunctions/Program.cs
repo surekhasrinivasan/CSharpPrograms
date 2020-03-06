@@ -63,6 +63,10 @@ namespace CSharpExamplesOnFunctions
     class Program
     {
         int x = 10;
-        bool b;
+        object obj;
+        void boxmethod()
+        {
+
+        }
     }
 }
