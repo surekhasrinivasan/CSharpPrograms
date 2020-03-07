@@ -71,6 +71,10 @@ namespace CSharpExamplesOnFunctions
             object ob = "CSHARP";
             b = p.obj is int;
             Console.WriteLine(b);
+            p.obj = x;
+            b = p.obj is int;
+            Console.WriteLine("{0},{1},{2}", p.obj, p.x, b);
+
         }
     }
 }
