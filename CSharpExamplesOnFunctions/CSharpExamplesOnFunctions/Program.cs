@@ -74,7 +74,10 @@ namespace CSharpExamplesOnFunctions
             p.obj = x;
             b = p.obj is int;
             Console.WriteLine("{0},{1},{2}", p.obj, p.x, b);
-
+            p.x = (int)p.obj;
+            p.x = 20;
+            b = p.obj is int;
+            Console.WriteLine("{0},{1},{2}", p.obj, p.x, b);
         }
     }
 }
