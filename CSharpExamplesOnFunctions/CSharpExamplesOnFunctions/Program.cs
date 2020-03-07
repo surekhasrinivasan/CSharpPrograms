@@ -78,6 +78,16 @@ namespace CSharpExamplesOnFunctions
             p.x = 20;
             b = p.obj is int;
             Console.WriteLine("{0},{1},{2}", p.obj, p.x, b);
+            p.obj = "CSHARP";
+            b = p.obj is int;
+            Console.WriteLine("{0},{1},{2}", p.obj, p.x, b);
+            Console.ReadLine();
+        }
+
+        public static void Main()
+        {
+            Program p = new Program();
+            p.boxmethod();
         }
     }
 }
