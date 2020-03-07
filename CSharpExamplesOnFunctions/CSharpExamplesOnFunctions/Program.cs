@@ -67,6 +67,10 @@ namespace CSharpExamplesOnFunctions
         void boxmethod()
         {
             Program p = new Program();
+            bool b;
+            object ob = "CSHARP";
+            b = p.obj is int;
+            Console.WriteLine(b);
         }
     }
 }
