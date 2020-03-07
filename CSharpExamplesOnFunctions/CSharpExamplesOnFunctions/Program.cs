@@ -59,35 +59,41 @@ namespace CSharpExamplesOnFunctions
     //    }
     //}
 
-    // Program to Demonstrate Boxing Operations
+    //// Program to Demonstrate Boxing Operations
+    //class Program
+    //{
+    //    int x = 10;
+    //    object obj;
+    //    void boxmethod()
+    //    {
+    //        Program p = new Program();
+    //        bool b;
+    //        object ob = "CSHARP";
+    //        b = p.obj is int;
+    //        Console.WriteLine(b);
+    //        p.obj = x;
+    //        b = p.obj is int;
+    //        Console.WriteLine("{0},{1},{2}", p.obj, p.x, b);
+    //        p.x = (int)p.obj;
+    //        p.x = 20;
+    //        b = p.obj is int;
+    //        Console.WriteLine("{0},{1},{2}", p.obj, p.x, b);
+    //        p.obj = "CSHARP";
+    //        b = p.obj is int;
+    //        Console.WriteLine("{0},{1},{2}", p.obj, p.x, b);
+    //        Console.ReadLine();
+    //    }
+
+    //    public static void Main()
+    //    {
+    //        Program p = new Program();
+    //        p.boxmethod();
+    //    }
+    //}
+
+    // Program to Find Sum of Digits of a Number using Recursion
     class Program
     {
-        int x = 10;
-        object obj;
-        void boxmethod()
-        {
-            Program p = new Program();
-            bool b;
-            object ob = "CSHARP";
-            b = p.obj is int;
-            Console.WriteLine(b);
-            p.obj = x;
-            b = p.obj is int;
-            Console.WriteLine("{0},{1},{2}", p.obj, p.x, b);
-            p.x = (int)p.obj;
-            p.x = 20;
-            b = p.obj is int;
-            Console.WriteLine("{0},{1},{2}", p.obj, p.x, b);
-            p.obj = "CSHARP";
-            b = p.obj is int;
-            Console.WriteLine("{0},{1},{2}", p.obj, p.x, b);
-            Console.ReadLine();
-        }
 
-        public static void Main()
-        {
-            Program p = new Program();
-            p.boxmethod();
-        }
     }
 }
