@@ -94,6 +94,10 @@ namespace CSharpExamplesOnFunctions
     // Program to Find Sum of Digits of a Number using Recursion
     class Program
     {
+        public static void Main()
+        {
+            int num, result;
+        }
 
     }
     class pro
