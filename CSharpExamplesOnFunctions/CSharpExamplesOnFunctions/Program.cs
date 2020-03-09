@@ -97,6 +97,8 @@ namespace CSharpExamplesOnFunctions
         public static void Main()
         {
             int num, result;
+            pro pg = new pro();
+
         }
 
     }
