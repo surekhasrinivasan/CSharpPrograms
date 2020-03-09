@@ -98,7 +98,8 @@ namespace CSharpExamplesOnFunctions
         {
             int num, result;
             pro pg = new pro();
-
+            Console.WriteLine("Enter the Number : ");
+            num = int.Parse(Console.ReadLine());
         }
 
     }
