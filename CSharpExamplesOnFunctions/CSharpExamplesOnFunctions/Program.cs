@@ -142,6 +142,10 @@ namespace CSharpExamplesOnFunctions
             {
                 Console.WriteLine("The string {0} contains no root information.", p3);
             }
+            Console.WriteLine("Location for Temporary Files : {0}", Path.GetTempPath());
+            Console.WriteLine("Full path of {0} is {1}.", p3, Path.GetFullPath(p3));
+            Console.WriteLine("File available for Use : {0} ", Path.GetTempFileName());
+            Console.Read();
         }
     }
 }
