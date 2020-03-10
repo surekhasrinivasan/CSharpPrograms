@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -129,6 +130,10 @@ namespace CSharpExamplesOnFunctions
             string p = @"c:\Hello\HelloWorld.txt";
             string p2 = @"c:\Hello\HelloWorld";
             string p3 = @"Hello";
+            if (Path.HasExtension(p))
+            {
+                Console.WriteLine("{0} has an extension.", p);
+            }
         }
     }
 }
