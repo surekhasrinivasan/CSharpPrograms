@@ -124,6 +124,11 @@ namespace CSharpExamplesOnFunctions
     // Program to Demonstrate the Operations of C# Path Class
     class Program
     {
-
+        public static void Main()
+        {
+            string p = @"c:\Hello\HelloWorld.txt";
+            string p2 = @"c:\Hello\HelloWorld";
+            string p3 = @"Hello";
+        }
     }
 }
