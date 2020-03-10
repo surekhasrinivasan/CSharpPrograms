@@ -101,6 +101,8 @@ namespace CSharpExamplesOnFunctions
             Console.WriteLine("Enter the Number : ");
             num = int.Parse(Console.ReadLine());
             result = pg.sum(num);
+            Console.WriteLine("Sum of Digits in {0} is {1}", num, result);
+            Console.ReadLine();
         }
 
     }
