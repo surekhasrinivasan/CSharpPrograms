@@ -138,6 +138,10 @@ namespace CSharpExamplesOnFunctions
             {
                 Console.WriteLine("{0} has no extension.", p2);
             }
+            if (!Path.IsPathRooted(p3))
+            {
+                Console.WriteLine("The string {0} contains no root information.", p3);
+            }
         }
     }
 }
