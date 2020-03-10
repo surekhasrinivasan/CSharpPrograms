@@ -100,6 +100,7 @@ namespace CSharpExamplesOnFunctions
             pro pg = new pro();
             Console.WriteLine("Enter the Number : ");
             num = int.Parse(Console.ReadLine());
+            result = pg.sum(num);
         }
 
     }
