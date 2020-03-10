@@ -134,6 +134,10 @@ namespace CSharpExamplesOnFunctions
             {
                 Console.WriteLine("{0} has an extension.", p);
             }
+            if (!Path.HasExtension(p2))
+            {
+                Console.WriteLine("{0} has no extension.", p2);
+            }
         }
     }
 }
